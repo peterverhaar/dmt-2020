@@ -1,0 +1,20 @@
+body {
+  margin-left: 10%; margin-right: 10%; text-align: justify;font-family: Helvetica; font-size: 14; color: #FFFFFF; background-color: #000000
+}
+
+table, td{
+    border: 1px solid white;
+}
+a { color: #FFFF00; text-decoration: none;
+  /* visited links */
+
+a:visited { color: #0000FF; text-decoration: italic;
+
+/* mouse-over */
+
+a:hover { color: white; text-decoration: underline;
+
+/* active links*/
+
+a:active { color: white ; text-decoration: bold ; }
+}
