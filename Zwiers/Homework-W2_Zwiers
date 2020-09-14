@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Wouter Zwiers </title>
+<link type="text/css" rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<h1 style="text-align:center"> Welcome to my introductionary web page! </h1>
+<hr>
+<p style="text-align:center"> <b> My name is Wouter Zwiers, I am 22 years old and I am currently <br/>
+enrolled in the masters programme of Book and Digital Media Studies at
+<a href=
+ "https://www.universiteitleiden.nl/onderwijs?gclid=Cj0KCQjwwOz6BRCgARIsAKEG4FWVfOUSAhiXF4tU6ARmDzgDEjbnJFXzoiJKXL_axCpAHh6qdQlOkHkaAmTtEALw_wcB">
+ Leiden University. </a></b> </p>
+<p>
+<center> <img src="file:///home/wouterzwiers14/Documents/Atom/WhatsApp%20Image%202020-09-06%20at%2012.54.41.jpeg" width="350"> </center>
+</p>
+<p> Before this, I obtained my bachelors's degree <i> Dutch Language and Culture,</i> during which I specialized in modern literature.
+I was born in <a href="https://en.wikipedia.org/wiki/Norg"> Norg</a>, a small village in the north of The Netherlands. After finishing secondary school in Assen, I moved to Leiden, where I went on to study Political Science.
+After finishing my propaedeutic year, I decided to go down a different path and started the Dutch Language and Culture degree.
+During the third year, I enrolled into the minor programme <i> Boek, Boekhandel en Uitgeverij </i> in preperation to my current master's degree.
+I finally finished my degree with a thesis on peritextual elements and the way they frame our perception of literary works. </p>
+<hr>
+<h2> Facts about me: </h2>
+<img src="https://images-na.ssl-images-amazon.com/images/I/61WHhsyhStL._AC_SX522_.jpg" width="350" style="float:right;margin:-75px; margin-right:950px">
+<p> <b>Language proficiency</b>
+<table style="border:1px solid black; border-collapse:collapse; display:">
+  <tr>
+  <td style="border:1px solid black">Dutch</td> <td style="border:1px solid black"> Mother tongue</td>
+  </tr>
+  <tr>
+  <td style="border:1px solid black"> English</td> <td style="border:1px solid black"> Fluent</td>
+  </tr>
+<tr>
+<td style="border:1px solid black">French</td> <td style="border:1px solid black">Basics</td>
+</tr>
+
+</table>
+<p> <b>Favourite books</b>
+<ul>
+<figure>
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Crimeandpunishmentcover.png/200px-Crimeandpunishmentcover.png" width="350" style="float:right;margin:-180px; margin-right: 450px">
+</figure>
+<li> <i>Crime and Punishment</i>, Fyodor Dostoevsky </li>
+<li> <i>The Shadow of the Wind</i>, Carlos Ruiz Zafón </li>
+<li> <i>De Wasbeer</i> (The Raccoon), Aleksandr Skorobogatov
+<li> <i>The Man Who Spoke Snakish</i>, Andrus Kivirähk </li>
+<li> Anything Terry Pratchett has ever touched </li>
+</ul>
+</p>
+
+
+<p><b> Places I have lived </b>
+<ul>
+<li> Norg</li>
+<li> Leiden</li>
+<li>Utrecht</li>
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f6/Buurkerk_en_Domtoren.jpg" width="350" style="float:left;margin:-300px;margin-left:650px">
+</ul>
+
+</p>
+
+
+
+
+
+</body>
+</html>
