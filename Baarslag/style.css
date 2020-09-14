@@ -1,0 +1,38 @@
+body {
+  font-family: Garamond, Georgia;
+  background-color: #f0dada
+}
+
+
+h1 {
+  font-family: Garamond;
+  background-color: #c9bdbd;
+  Color: #211414
+}
+h2 {
+  font-family: garamond;
+  color: #523c3c
+}
+p{
+  font-family: times;
+  font-size: 15px;
+}
+li{
+  font-family: times;
+  font-size: 15px;
+}
+b{
+  font-family: times;
+  font-size: 15px;
+}
+td{
+  font-family: times;
+  font-size: 15px;
+}
+img {
+  border-radius: 8px;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
