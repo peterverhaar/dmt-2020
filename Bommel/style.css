@@ -1,0 +1,13 @@
+body {
+  background-color:#E5D3CF; Arial, Helvetica, sans-serif;
+}
+table, th, td {
+  border: 1px solid blue;
+}
+h1 {
+  font-family: Arial; color:#ff0000; text-align: center;
+}
+/* mouse-over */
+a {
+  color:blue; text-decoration: underline;
+}
