@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+h1 {
+  color: #000066;
+
+}
+  
+
+h3 {
+  color: #000066;
+
+}
+
+a:link {
+  color: #003366;
+
+}
+
+a:visited {
+  color: #660066;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+Body {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+  
