@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from  <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                  <persName>Vita Sackville &#x2D; West </persName> writes to <persName>Leonard Woolf </persName> to let him know she has accidentally assigned the Canadian rights
+                  to one of her books - most likely <title>The Edwardians </title> - to both <orgName> Hogarth Press </orgName> - owned by Leonard Woolf - and
+                  the publishing house <orgName> Doubleday, Doran </orgName>. She also sends him back some money she has borrowed, and gives him
+                  the new address of <persName>Dorothy Wellesley</persName> so that he may write to her to let her know whether he has received her poem and what he thinks of it.  </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                      <date when="1930-09-01"> 1st. September, 1930. </date>
+                    </dateline>
+                    <salute>
+                        My dear <persName> <orig>Leonard</orig> <reg>Leonard Woolf</reg> </persName>,
+                    </salute>
+                </opener>
+                <p> I have looked up my contract with <orgName>Doubleday <lb/>
+Doran </orgName>, and my worst fears have been fulfilled. <lb/>
+I have indeed assigned the Canadian rights to both <lb/>
+of you. I cannot tell you how sorry I am to have <lb/>
+made this idiotic muddle. I am writing to <abbr> Mr </abbr> <expan> Mister </expan> <lb/>
+<persName> <orig>Doran</orig> <reg> George H. Doran </reg> </persName> today, and will confess my sin and throw <lb/>
+myself on his mercy, suggesting at the same time <lb/>
+that you and he should halve the market. </p>
+<p> I am enclosing <num type="ordinal" value="10"> 10 </num> &#x2F; &#x2D; which you lent me the <lb/>
+other day. I have a letter from <persName> <orig> Dottie </orig> <reg> Dorothy Wellesley </reg> </persName> who is <lb/>
+rather agitated because she has never heard from <lb/>
+you whether you had received the <abbr> M.S. </abbr> <expan> manuscript </expan> of her poem, <lb/>
+and what you thought if it. If you want to write <lb/>
+to her, her address for the next days will be: </p>
+<p> Kulm Hotel, Col du Simplon, <placeName> Brigue </placeName>, <lb/>
+Switzerland
+                </p>
+                <closer>
+                    <salute>
+                        Yours ever <lb/>
+                        <persName>Vita</persName>
+                    </salute>
+                    <signed/>
+                  </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
