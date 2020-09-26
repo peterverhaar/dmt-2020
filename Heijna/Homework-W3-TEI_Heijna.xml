@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Leonard Woolf to Vita Sackville-West, 04-05-1946: A
+                    machine-readable transcription</title>
+                <author>
+                    Leonard Woolf
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Annika Heijna
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Annika Heijna
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Annika Heijna
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2020</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from Leonard Woolf to Vita Sackville-West, 04-05-1995
+                    </title>
+                    <author>
+                        Leonard Woolf
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2020-2021
+                    Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Woolf is trying to amalgamate with Chatto &#38; Windus. He is planning to reprint
+                    The Edwardians, All Passion Spent, and Pepita and is asking Sackville-West about
+                    which should be printed first.
+
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            Monk&#39;s House, Rodmell, Lewes, Sussex
+                        </placeName>
+                        <date when="1946-05-04">
+                            5/4/46
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <!-- recipient's name, using <persName> or <orgName> element -->
+                        </addrLine>
+                        <addrLine>
+                            <!-- recipient's address (add <addrLine>s as required) -->
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Vita,
+                    </salute>
+                </opener>
+                <p>
+                  &#09; I&#39;m not giving up with <orgName><choice><orig>the Press</orig><reg>The Hogarth Press</reg></choice></orgName>. <persName>John Lehman</persName> is leaving it and I am at present <lb/>
+                  negotiating with <orgName>Chatto &#38; Windus</orgName> to amalgamate with them. I think it will probably <lb/>
+                  be arranged, but I shall continue to be a Director. I should hope to be able to <lb/>
+                  reprint <title>The Edwardians</title>, <title>All Passion Spent</title>, and <title>Pepita</title> in the not distant future; <lb/>
+                  in fact one of them should have a chance in the next paper ration period. Which of <lb/>
+                  them would you like to be done first? The two books on Persia, I feel, should come <lb/>
+                  after those three, but in time we ought to be able to reprint them. <lb/>
+                </p>
+                <closer>
+                    <salute>
+                        Yours
+                    </salute>
+                    <signed/>
+                    <seg>
+                        <!-- post scriptum -->
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
