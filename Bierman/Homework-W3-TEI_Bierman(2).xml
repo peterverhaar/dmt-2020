@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    <persName>Leonard Woolf</persName> informs <persName>Vita</persName> that he has managed to get her books for the Book Society printed in May, but tells her she must return the proofs swiftly if that is to happen.
+                    He also expresses his disdain for <persName>Mr. Barker</persName> because of misinforming him about the date for the printing of the books.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1930-04-09">
+                            April 9th, 1930
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName>The Hon. Mrs. Nicholson</persName>
+                        </addrLine>
+                        <addrLine>
+                            <placeName>Long Barn</placeName>
+                        </addrLine>
+                        <addrLine>
+                          <placeName>Weald</placeName>
+                        </addrLine>
+                        <addrLine>Sevenoaks</addrLine>
+                    </address>
+                    <salute>
+                        Dear <persName>Vita,</persName>
+                    </salute>
+                </opener>
+                <p>
+                <title> <emph rend="underlined">THE EDWARDIANS</emph></title><lb/>
+                  I have dealt with printers, paper-makers, and binders<lb/>
+                  and have extracted promises from them which will leave<lb/>
+                  us just time to get the books to <orgName>the Book Society</orgName> for<lb/>
+                  the May publication, but it only just allows sufficient<lb/>
+                  time and it involves this, that when you get the proofs,<lb/>
+                  which you ought to do in a day or two, you will have to<lb/>
+                  pass them and send them back to me immediately and we<lb/>
+                  shall have to trust the printer to make the corrections
+                  and pass the revise without sending us second proofs.<lb/>
+                  I am afraid this is the only way in which to do it, but<lb/>
+                  <persName>Clark</persName> is an extremely careful printer and I thought you<lb/>
+                  would rather have this than put the book off till June.<lb/>
+                  I only hope they keep to their dates, if not it will<lb/>
+                  be rather disastrous. At any rate, I have told <orgName>the<lb/>
+                  Book Society</orgName> that we will let them have their 9,000<lb/>
+                  copies for May 29th.
+                </p>
+                <p>
+                  I really think that <persName>Mr. Barker</persName> behaved rather<lb/>
+                  scandalously. He definitely told me that one of the<lb/>
+                  difficulties was that the book would have to be in<lb/>
+                  June, and though I pressed him to allow us to have <del rend="strikethrough">the</del><lb/>
+                  May and give the other publisher <del rend="strikethrough">the</del> June, he said that<lb/>
+                  it was impossible.
+                </p>
+                <closer>
+                    <salute>
+                        Yours,
+                    </salute>
+                    <signed>
+                      <persName><gap reason="illegible" extent="1 word"/></persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
