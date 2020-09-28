@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!--The Hogarth Press--> to <!-- recipient-->, <!-- March 23rd, 1933 -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- Manager of the Hogarth press -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Suzan Boreel
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Suzan Boreel
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Suzan Boreel
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2020</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2020-2021
+                    Digital Media Studies course, Book and Digital Media Studies, Leiden University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    <!-- summary of contents -->
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            <!-- place name as in letter -->
+                        </placeName>
+                        <date when="YYYY-MM-DD">
+                            1933-03-23
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <orgName>Percy Lund Humphreys &amp; Co., Ltd.</orgName>
+                        </addrLine>
+                        <addrLine>
+                            <!-- <unclear>3, Amen Corner, E.C.4</unclear> -->
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Sirs,
+                    </salute>
+                    <seg type="subject"><persName>SACKVILLE WEST</persName>. <title>EDWARDIANS</title> (cheap edn.)</seg>
+                </opener>
+                <p>
+                  Will you kindly estimate for reprinting by Replica<lb/>
+                  process 3000 copies of the above book, imposition for Quod<lb/>
+                  Dexter folding-machine.
+                </p>
+                <p>
+                  I enclose copy of the original cheap edition, and<lb/>
+                  also a copy of the original 7/6 edition. They are both<lb/>
+                  printed from type, but as they are printed on different<lb>
+                  paper, you may find the type of the 7/6 edition more satisfactory<!-- <lb/> -->
+                  for your purpose. Please return with estimate.
+                </p>
+                <p>
+                  At the same time will you let us know whether 33<lb/>
+                  33 reams Aldwych Ant.Wove Qd.Cr. 30 x 40, 50lbs will be<lb/>
+                  the correct quantity of paper for printing 3000 copies; and<lb/>
+                  state the time in which the paper can be delivered in<lb/>
+                  London after receipt of paper.
+                </p>
+                <closer>
+                    <salute>
+                        Yours faithfully,
+                    </salute>
+                    <signed><orgName>The Hogarth Press</orgName>.<lb/>
+                    Manager.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
