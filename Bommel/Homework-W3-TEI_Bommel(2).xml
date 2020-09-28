@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    A letter from <persName>Leonard Woolf</persName> to <persName>Vita Sackville-West</persName> about the status of the book.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1930-03-09">9 March, 1930</date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName>The Hon Mrs Harold Nicolson</persName>
+                        </addrLine>
+                        <addrLine>
+                            4 King&#x27;s Bench Walk
+                        </addrLine>
+                        <addrLine>
+                          E.C.4
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Vita,
+                    </salute>
+                    <salute>
+                      <emph rend="underlined"><persName>SACKVILLE-WEST</persName>: EDWARDIANS</emph>
+                    </salute>
+                </opener>
+                <p>
+                    We found your MS waiting us and, of course, <persName>Virginia</persName><lb/>
+                    pounced on it and I have had no chance. She approves so viol-<lb/>
+                    ently <corr>that</corr> I shall send it off to the printer and read it in <lb/>
+                    proof to save time. Will you let me have the second MS you <lb/>
+                    promised so that I may take it at once to <orgName>the Book Society</orgName>?
+                </p>
+                <p>
+                    Do you think you could possibly give the chapters names? <lb/>
+                    It looks so much better to have a right hand heading different from <lb/>
+                    the left.
+                </p>
+                <p>
+                    I will get a specimen page for you to see. I am thinking <lb/>
+                    of increasing the limited edition to 150
+                </p>
+                <p>
+                    We will deal with <persName>Mrs Alston</persName>
+                </p>
+                <closer>
+                    <salute>
+                        Yours
+                    </salute>
+                    <signed/>
+                    <seg>
+                        Will you let me have this week your photo for the show card and <lb/>
+                        if possible the photo for the jacket?
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
