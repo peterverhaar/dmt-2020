@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Letter from <persName>Leonard Woolf</persName> to <persName>Vita Sackville-West</persName>,
+                    sent on <date when="1930-09-17"></date>
+                    <idno>ms 2750/416/34</idno>
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1930-09-17">17 September, 1930
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName>The Hon Mrs Harold Nicolson </persName>
+                        </addrLine>
+                        <addrLine>Long Barn <gap></gap>Weald<lb/>Sevenoaks
+                        </addrLine>
+                    </address>
+                    <salute>
+                      My Dear Vita,
+                    </salute>
+                </opener>
+                <p><emph rend="underlined">West:<title>Edwardians</title></emph></p>
+                <p>We have had some rather big orders from <placeName>Australia</placeName><lb/>
+                and have sold 24,800. We have les than 1000 copies of the <lb/>
+                2nd impression left so I have ordered a third impression of <lb/>
+                3000 copies. </p>
+                <p>Our Canadian agent is rather upset that we have not stood upon<lb/>
+                our prior rights, but I have told him that that is not possible.<lb/>
+                We have to give discount of 4/3 per copy already on colonial books<lb/>
+                and he presses me to give him 4/9 on <title>THE EDWARDIANS</title> so that he may<lb/>
+                undersell <persName>Doran</persName>. Under the circumstances I have agreed, but it is<lb/>
+                rather a nuisance as we shall also have to give it for the big<lb/>
+                Australian orders.
+                </p>
+                <closer>
+                    <salute>
+                        Yours
+                    </salute>
+                    <signed/>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
