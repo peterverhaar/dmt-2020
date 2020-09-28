@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                  Letter from Leonard Woolf to Doubleday, Doran &amp; Company, sent on 09-03-1930
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                          Doubleday, Doran &amp; Company
+                        </placeName>
+                        <date when="1930-02-09">
+      2 September, 1930
+
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                          <orgName> Doubleday, Doran &amp; Company
+                          </orgName>
+
+                        </addrLine>
+                        <addrLine>
+                          13 John Street
+                          W.C.3
+                        </addrLine>
+                    </address>
+                    <salute>
+                      Dear Sirs,
+
+    WEST: EDWARDIANS
+                    </salute>
+                </opener>
+                <p>
+                  Had some cables from our agent in Canada at the <lb/>
+                   end of last week from which I gathered that there had been<lb/>
+                    a protest from your firm against our selling <title>THE EDWARDIANS</title><lb/>
+                     by Miss V Sackville-West in Canada. As our agreement gave us<lb/>
+                      the Canadian rights, I thought there must be some mistake,<lb/>
+                       but as Miss Sackville-West was arriving from abroad at the end<lb/>
+                        of the week and I expected to see her immediately after her<lb/>
+                         arrival, I waited to speak to her about the matter. She now<lb/>
+                          tells me that, owing to an overnight on her part, she finds that<lb/>
+                           she gave Canadian rights both to us and to your firm. I<lb/>
+                            suggest that under the circumstances we had better share the<lb/>
+                             market and both sell what we can in Canada. <lb/>
+
+I have written to our agent informing him that of how matters stand and that I am in communication with you.
+
+                </p>
+                <closer>
+                    <salute>
+                      <signed>
+                      Yours faithfully,
+
+<unclear reason="bad handwriting" cert="medium">Signature</unclear>
+                    </salute>
+                    <signed/>
+                    <seg>
+                        <!-- post scriptum -->
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
