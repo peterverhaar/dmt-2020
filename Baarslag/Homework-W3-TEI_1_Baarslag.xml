@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Letter from Leonard Woolf to ask for a printing proof of a MS.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            Edinburgh
+                        </placeName>
+                        <date when="1930-03-10">
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                          R&amp;R Cloark Ltd</addrLine>
+                    <addrLine>Brandon Street,</addrLine>
+                    <addrLine>Edinburgh
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear sirs
+                    </salute>
+                    <salute>
+                      <emph rend="underlined">SACKVILLE<corr>-</corr>WEST: <title>THE EDWARDIANS</title></emph>
+                    </salute>
+                </opener>
+<p>I enclose the MS of the book and shall be obliged if<lb/>
+you will give me an estimate for printing as follows:-</p>
+<p>Printing 6500 copies crown 8vo Caslon O.F. 12pt, 32 lines in page<lb/>
+excluding headings, set solid, length of line 20ems. Headings in<lb/>
+small caps. The chapters are divided into sections which are not<lb/>
+numbered but shown by white being left in the MS: the author wishes<lb/>
+the same method to be followed in printing. It is possible that<lb/>
+the author will want chapter titles which will be supplied before<lb/>
+printing and will serve as right hand headings.<lb/>
+</p>
+<p>Printing special limited edition of 160 numbered copies on special<lb/>
+paper, demy 8vo.<lb/>
+</p>
+<p>The paper will be supplied by us. I shall be obiged if you can<lb/>
+let me have a specimen page and inform me how yong you will take<lb/>
+to supply complete proofs after order is given.
+                </p>
+                <closer>
+                    <salute>
+                      Yours faithfully
+                    </salute>
+                    <signed>
+                      Leonard Woolf
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

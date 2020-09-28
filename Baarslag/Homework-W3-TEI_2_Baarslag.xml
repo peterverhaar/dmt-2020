@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Letter to Miss Burch asking to send a book copy to Marquis D'Ormesson
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            London
+                        </placeName>
+                        <date when="1954-03-09">
+                        </date>
+                    </dateline>
+                    <address>
+                      <addrLine>
+                          DIRECTORS: LEONARD WOOLF . HAROLD RAYMOND . IAN PARSONS . NORAH SMALLWOOD
+                      </addrLine>
+                        <addrLine>
+                            THE<emph rend="bold">HOGARTH PRESS</emph>LTD
+                        </addrLine>
+                        <addrLine>
+                          40.42 WILLIAM IV STREET LONDON WC2
+                        </addrLine>
+                        <addrLine>
+                            <emph rend="italic">Telephone:</emph>TEMple Bar 5549 <emph rend="italic">Cables</emph>Hogarth London
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Miss Burch
+                    </salute>
+                </opener>
+                <p>
+                  I enclose a letter from Miss Sackville-<lb/>
+West. Would you have a copy of <title>"Pepita"</title> sent<lb/>
+to the Marquis D'Ormesson? And would you<lb/>
+look up the agreement and let me know on<lb/>
+Tuesday whether there is anything in it about<lb/>
+broadcasting or dramatic rights?
+                </p>
+                <closer>
+                    <signed>
+                      <unclear reason="signature" cert="medium">LMS</unclear>
+                    </signed>
+                    <add>
+                      NO- <unclear reason="bad handwriting" cert="medium">tont</unclear>
+                    all other subsidiary rights retained by author.
+                    </add>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
