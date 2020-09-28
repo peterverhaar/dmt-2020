@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    <!-- summary of contents -->
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+
+                        </placeName>
+                        <date when="1948-04-27">
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                        <persName>  Miss <choice> <abbr> V. </abbr> <expan> Vita </expan> </choice> Sackville-West </persName>
+                        </addrLine>
+                        <addrLine>
+                            <settlement type="castle"> Sissinghurst Castle </settlement>
+                        </addrLine>
+                        <addrLine>
+                          <region type="county">
+                            Kent
+                          </region>
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Vita,
+                    </salute>
+                </opener>
+                <p>
+                  You were good enough to say that you would agree to a reduction of
+       the royalty on <title> "Pepita" </title> for the reprint and reluctantly, I now have to write
+       to you about <title> "The Edwardians" </title> which we have brought out at 8/6d. Normally,
+       under present circumstances, it would be <orig> 10/6d </orig> <reg> 10 shillings and 6 pennies </reg>  if it were a new book and at
+       that price it is just possible to pay a 20&#x25; royalty which it now earns and
+       which we ought to pay you.     The account for the last year has just been
+       made out and I find we have sold 1,447 copies of the 2,000 printed.   The
+       royalty due to you &#x40; 20&#x25; is &#xA3;120. 5. 0 and our loss is &#xA3;104.16.  6. When we
+       have sold the whole edition, which we shall do, your royalties &#x40; 20&#x25; will be
+       &#xA3;165 and we shall still have a loss on the whole edition of &#xA3;30.  The thruth
+
+
+                                                                                                <choice> <abbr> PTO </abbr> <expan> Please turn over </expan> </choice> .
+    <pb/>
+       is that at present prices it is impossible to pay a royalty of 20&#x25; on a
+       long novel &#x40; <orig> 8/6d </orig> <reg> 8 shillings and 6 pennies </reg> without a loss to the publisher. Would you think it fair
+       if we paid you a royalty of 15&#x25; instead of 20&#x25; on this edition? If you think
+       it unfair for us to ask you this, I hope you will say so because I feel, myself,
+       that the publisher should really stick to the original agreement even if it
+       makes a loss in ordinary curcumstances.
+                </p>
+                <closer>
+                    <salute>
+                        Yours,
+                    </salute>
+                    <signed/>
+                    <seg>
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
