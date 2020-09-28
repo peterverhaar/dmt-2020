@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng"
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Vita Sakville-West to Leonard Woolf, 4th April 1946: A
+                    machine-readable transcription</title>
+                <author>
+                    Vita Sakville-West
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version:</resp>
+                    <name> Sofia P. Guido </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup:</resp>
+                    <name> Sofia P. Guido </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations:</resp>
+                    <name> Sofia P. Guido </name>
+                </respStmt>
+            </titleStmt>
+            <extent> 7KB </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p> Publicly accessible </p>
+                </availability>
+                <date> 2020 </date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title> Letter from Vita Sakville-West to Leonard Woolf,
+                            4th April 1946
+                    </title>
+                    <author>
+                        Vita Sakville-West
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber --> ms 2750/416/66
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p> Prepared by students of the 2020-2021
+                    Digital Media Technology course, Book and Digital Media
+                    Studies, Leiden University </p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Vita tells Leonard about a rumor the heard regarging a
+                    change in the management of the Press. She asks if some
+                    of her book can be re-printed. She asks if the rumor is true.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <address>
+                        <addrLine>
+                            <persName>
+                              <choice>
+                              <orig>Leonard</orig><reg>Leonard Woolf</reg>
+                              </choice>
+                            </persName>
+                        </addrLine>
+                    </address>
+                    <salute>
+                        My dear <choice>
+                        <orig>Leonard</orig>
+                        <reg>Leonard Woolf</reg>
+                        </choice>
+                    </salute>
+                </opener>
+                <p>
+                    I have just received the enclosed letter <lb/>
+                    which speaks for itself. I don't know if there <lb/>
+                    is any truth in the rumor that the <orgName> Press </orgName>
+                    <note><p> The Hogarth Press </p></note> is <lb/>
+                    changing hands, although I do not know that John <lb/>
+                    Lehmann has left it. I should of course be glad <lb/>
+                    if certain of my books could be reprintes, namely <lb/>
+                    Pepita, <choice> <orig> the two books about Persia </orig>
+                    <reg> <title> Twelve Days: an account of a journey across
+                    the Bakhtiari Mountains of South-western Persia </title>
+                    <title> Passenger to Teheran </title> </reg> </choice>,
+                    <title> The Edwardians </title> <lb/>
+                    and <title> All Passion Spent </title>.
+                    Could you let me know <lb/>
+                    what the position is and if there is no truth <lb/>
+                    in the story that you are giving up the Press, <lb/>
+                    please forgive me for having written. <lb/>
+                </p>
+                <closer>
+                  <dateline>
+                      <placeName>
+                        Sissinghurst Castle, Kent
+                      </placeName>
+                      <date when="1946-04-04">
+                          4th April 1946
+                      </date>
+                  </dateline>
+                  <address>
+                      <addrLine>
+                          <persName> Vita Sakville-West </persName>
+                      </addrLine>
+                      <addrLine>
+                          Sissinghurst Castle, Kent
+                      </addrLine>
+                  </address>
+                    <salute>
+                        Yours ever,
+                    </salute>
+                    <signed> Vita </signed>
+                    <address>
+                      <addrLine> {Sissinghurst Castle, Kent} </addrLine>
+                    </address>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
