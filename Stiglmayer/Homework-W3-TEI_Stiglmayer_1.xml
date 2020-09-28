@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->: A
+                    machine-readable transcription</title>
+                <author>
+                    <!-- sender -->
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        <!-- your name -->
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <!-- sender --> to <!-- recipient-->, <!-- date -->
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    <persName>Leonard Woolf</persName> thanks <persName>Vita Sackville-West</persName> for her letter concerning a
+                    Mr. <persName>Jullian</persName>.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                  <seg><emph rend="underlined">Please note new address</emph></seg>
+                    <dateline>
+                        <orgName>The Hogarth Press</orgName>,<lb/>
+                          <placeName>
+                            40/42 William IV Street, W.C.2.
+                        </placeName>
+                        <date when="1946-07-31">
+                            31st July, 1946
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            The <choice><abbr>Hon.</abbr><expan>Honourable</expan></choice><persName>V. Sackville-West</persName>,
+                        </addrLine>
+                        <addrLine>
+                            <placeName>Sissinghurst Castle, Kent</placeName>.
+                        </addrLine>
+                    </address>
+                    <salute>
+                        My dear <persName>Vita</persName>,
+                    </salute>
+                </opener>
+                <p>
+                  Many thanks for your letter about <choice><abbr>Mr.</abbr><expan>Mister</expan></choice><persName>Jullian</persName>.  I have not had<lb/>
+                  any communication from him and have not got any address, but I suppose he<lb/>
+                  will let me know in time.
+                </p>
+                <closer>
+                    <salute>
+                      Yours
+                    </salute>
+                    <signed>
+                      P.p. LSW
+                    </signed>
+                    <seg>
+                        Dictated but not signed by <choice><abbr>Mr.</abbr><expan>Mister</expan></choice><persName>Woolf</persName>
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
