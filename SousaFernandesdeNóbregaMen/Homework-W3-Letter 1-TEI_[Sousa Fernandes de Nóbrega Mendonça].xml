@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from LeonardWoolf to VitaSackville&#45;West&#44; 7th September&#44;	1954&#58; A
+                    machine&#45;readable transcription</title>
+                <author>
+                    Leonard Woolf
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Raquel Sofia Mendon&#231;a
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Raquel Sofia Mendon&#231;a
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Raquel Sofia Mendon&#231;a
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible</p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from Leonard Woolf to Vita Sackville&#45;West,
+                    </title>
+                    <author>
+                        <!-- sender -->
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2020-2021
+                    Digital Media Technology course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                  Letter from Leonard Woolf to Vita Sackville&#45;West regarding the agreement for THE EDWARDIANS&#46;
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1954-09-07">7th Semptember&#44; 1954&#46;</date>
+                    </dateline>
+                    <address>
+                        <addrLine><persName>The <choice><abbr>Hon&#46; V&#46;</abbr>
+                        <expan>Honourable Vita</expan></choice> Sackville&#150;West,</persName>
+                        </addrLine>
+                        <addrLine>Sissinghurst Castle&#44;
+                        </addrLine>
+                        <addrLine>Kent&#46;
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Vita&#44;
+                    </salute>
+                </opener>
+                <p>
+                  I have examined the agreement for<lb/>
+                  THE EDWARDIANS and I find that you have<lb/>
+                  all the subsidiary rights though&#44; of<lb/>
+                  course&#44; radio was not actually mentioned<lb/>
+                  in those days&#46;
+                </p>
+                <closer>
+                    <salute>
+                        Yours,
+                    </salute>
+                    <seg type="postscriptum">
+                        Dictated but not signed by Mr&#46; Woolf
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

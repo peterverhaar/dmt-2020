@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
+    <!-- replace xxxxxxxxxx with file id -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from VitaSackville&#45;West to LeonardWoolf&#44; 3rd May&#44; 1929&#58; A
+                    machine-readable transcription</title>
+                <author>
+                    Vita Sackville&#45;West
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Raquel Sofia Mendon&#231;a
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Raquel Sofia Mendon&#231;a
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Raquel Sofia Mendon&#231;a
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    <!-- file ID -->
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date><!-- current year --></date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from Vita Sackville&#45;West to Leonard Woolf&#44; 3rd May&#44; 1929
+                    </title>
+                    <author>
+                        Vita Sackville&#45;West
+                    </author>
+                    <idno type="callNo">
+                        <!-- library callnumber -->
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the <!-- current_academic_year_expressed as 20..-20.. -->
+                    <!-- name_of_course --> course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    <!-- summary of contents -->
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                            Long Barn&#44;<lb/>
+                            Weald&#44;<lb/>
+                            Sevenoaks&#46;
+                        </placeName>
+                        <date when="1929-05-03">
+                            3rd May&#44; 1929&#46;
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName>Leonard Woolf</persName>
+                        </addrLine>
+                    </address>
+                    <salute>
+                        My dear Leonard&#44;
+                    </salute>
+                </opener>
+                <p>
+                  I am returning the agreement herewith&#44; with<lb/>
+                  many thanks&#46;<lb/>
+                  I have a letter this morning from <orgName>Curtis Brown</orgName><lb/>
+                  in which they say&#58;<lb/>
+                  &quot;I think <orgName>Doubleday Doran</orgName> will be rather<lb/>
+                  anxious to have <placeName>Canada</placeName> where they have a<lb/>
+                  good organisation&#44; and I believe should<lb/>
+                  be able to sell the book better than an<lb/>
+                  English publisher&#46; We excluded <placeName>Canada</placeName><lb/>
+                  from <orgName>Heinemann</orgName> for this reason&#46; Perhaps<lb/>
+                  you will let me have a word about this&#44;<lb/>
+                  as the point will have to be cleared up defi&#45;<lb/>
+                  nitely before the contract can be completed&#46;&quot;<lb/>
+                  I notice that in your agreement you reserve<lb/>
+                  the copyright for all countries&#44; other than the <placeName>United<lb/>
+                  States</placeName>&#46; I am therefore rather puzzled to know what<lb/>
+                  I ought to say to <orgName>Curtis Brown</orgName> about <placeName>Canada</placeName>&#46; Per&#45;<lb/>
+                  haps you would let me have a line on the subject<lb/>
+                  when you have a moment to spare&#46;
+                </p>
+                <closer>
+                    <salute>
+                        Yours&#44;
+                    </salute>
+                    Vita
+                    <note>Handwritten closer</note>
+                    <signed/>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
