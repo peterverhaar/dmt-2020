@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HPRE19300916">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from The Hogarth Press to Irwin and Gordon, 16 September 1930: A machine-readable transcription</title>
+        <author>
+          <orgName>The Hogarth Press</orgName>
+        </author>
+        <principal>Prof. dr. Adriaan van der Weel</principal>
+        <respStmt>
+          <resp>Creation of machine-readable version:
+          </resp>
+          <name>
+            Rebecca Rui
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>Conversion to TEI-conformant markup:
+          </resp>
+          <name>
+            Rebecca Rui
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>Editorial annotations:
+          </resp>
+          <name>
+            Rebecca Rui
+          </name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <!-- file size in kBytes -->
+      </extent>
+
+      <publicationStmt>
+        <distributor>Leiden University</distributor>
+        <pubPlace>Leiden, The Netherlands
+        </pubPlace>
+        <address>
+          <addrLine>P.O. Box 9515</addrLine>
+          <addrLine>2300 RA Leiden</addrLine>
+        </address>
+        <idno>
+          HPRE19300916
+        </idno>
+        <availability>
+          <p>Publicly accessible
+          </p>
+        </availability>
+        <date>
+          2020
+        </date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl>
+          <!-- uncertain about the key codes for both sender and recipient -->
+          <title>Letter from
+            <orgName key="HPRE">The Hogarth Press</orgName>
+            to
+            <orgName key="IRGO">Irwin and Gordon</orgName>,
+            <date when="1930-09-16">16 September 1930</date>
+          </title>
+          <author>
+            <orgName key="HPRE">The Hogarth Press</orgName>
+          </author>
+          <idno type="callNo">
+            <!-- library callnumber -->
+            <!-- where to acquire this? -->
+          </idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Prepared by students of the 2020 Digital Media Technology course, Book and Digital Media Studies, Leiden University</p>
+      </projectDesc>
+      <editorialDecl>
+        <p/>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="http://classificationweb.net">
+          <term>Correspondence</term>
+        </keywords>
+      </textClass>
+      <textClass>
+        <!-- delete the terms below? -->
+        <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+          <term>nonfiction</term>
+          <term>prose</term>
+          <term>masculine</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <front>
+      <div type="summary">
+        <p>
+          <!-- summary of contents -->
+        </p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+        <opener>
+          <dateline>
+            <placeName>
+              <!-- placename of sender? -->
+              {London, UK}
+            </placeName>
+            <date when="1930-09-16">
+              September 16th 1930
+            </date>
+          </dateline>
+          <address>
+            <addrLine>
+              <orgName key="IRGO">Messrs. Irwin and Gordon</orgName>
+            </addrLine>
+            <addrLine>
+              11 Greenville St.,
+            </addrLine>
+            <addrLine>
+              Toronto, CANADA
+            </addrLine>
+          </address>
+          <salute>
+            Dear Sirs,
+          </salute>
+        </opener>
+        <p>
+          I have received your letters of 5th September and
+          <lb/>
+          have cabled to-day to you that we will let you have copies
+          <lb/>
+          at 2/9 under the circumstances. I am very sorry that
+          <lb/>
+          this occurred with regard to this book and I
+          <unclear reason="paper fold" cert="high">feel</unclear>
+          <lb/>
+          that it is rather unfortunate for you as it is the first
+          <lb/>
+          of our books which might have had a really large sale.
+          <lb/>
+          The fact is, however, that Mrs Nicolson is a personal
+          <lb/>
+          friend of mine and it was quite impossible for me under
+          <lb/>
+          these
+          <del rend="strikethrough">s</del>
+          circumstances to take any other line than to agree
+          <lb/>
+          to share the market with Doran, as it would have put
+          <unclear reason="paper fold" cert="high">her</unclear>
+          <lb/>
+          in a most a<supplied reason="typo" cert="high">w</supplied>kward position if I had insisted upon my
+          <lb/>
+          rights.
+        </p>
+        <closer>
+          <salute>
+            Yours faithfully,
+          </salute>
+          <signed>The Hogarth Press.</signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

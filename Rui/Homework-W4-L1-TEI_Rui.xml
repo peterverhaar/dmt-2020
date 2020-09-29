@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HPRE19341126">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from The Hogarth Press to Curtis Brown, 26 November 1934: A machine-readable transcription</title>
+        <author>
+          <orgName>The Hogarth Press</orgName>
+        </author>
+        <principal>Prof. dr. Adriaan van der Weel</principal>
+        <respStmt>
+          <resp>Creation of machine-readable version:
+          </resp>
+          <name>
+            Rebecca Rui
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>Conversion to TEI-conformant markup:
+          </resp>
+          <name>
+            Rebecca Rui
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>Editorial annotations:
+          </resp>
+          <name>
+            Rebecca Rui
+          </name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        <!-- file size in kBytes -->
+      </extent>
+
+      <publicationStmt>
+        <distributor>Leiden University</distributor>
+        <pubPlace>Leiden, The Netherlands
+        </pubPlace>
+        <address>
+          <addrLine>P.O. Box 9515</addrLine>
+          <addrLine>2300 RA Leiden</addrLine>
+        </address>
+        <idno>
+          HPRE19341126
+        </idno>
+        <availability>
+          <p>Publicly accessible
+          </p>
+        </availability>
+        <date>
+          2020
+        </date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl>
+          <!-- uncertain about the key codes for both sender and recipient -->
+          <title>Letter from
+            <orgName key="HPRE">The Hogarth Press</orgName>
+            to
+            <orgName key="CBRO">Curtis Brown</orgName>,
+            <date when="1934-11-26">26 November 1934</date>.
+          </title>
+          <author>
+            <orgName key="HPRE">Hogarth Press</orgName>
+          </author>
+          <idno type="callNo">
+            <!-- library callnumber -->
+            <!-- where to acquire this? -->
+          </idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Prepared by students of the 2020 Digital Media Technology course, Book and Digital Media Studies, Leiden University</p>
+      </projectDesc>
+      <editorialDecl>
+        <p/>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="http://classificationweb.net">
+          <term>Correspondence</term>
+        </keywords>
+      </textClass>
+      <textClass>
+        <!-- delete the terms below? -->
+        <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+          <term>nonfiction</term>
+          <term>prose</term>
+          <term>masculine</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <front>
+      <div type="summary">
+        <p>
+          <!-- summary of contents -->
+        </p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+        <opener>
+          <dateline>
+            <placeName>
+              <!-- placename of sender? -->
+              {London, UK}
+            </placeName>
+            <date when="1934-11-26">
+              November 26th. 1934.
+            </date>
+          </dateline>
+          <address>
+            <addrLine>
+              <persName>Miss Chapter</persName>
+            </addrLine>
+            <addrLine>
+              <orgName key="CBRO">Messrs Curtis Brown</orgName>
+            </addrLine>
+            <addrLine>
+              6, Henrietta Street
+            </addrLine>
+            <addrLine>
+              Covent Garden.W.C.2.
+            </addrLine>
+            <addrLine>
+              {London, UK}
+            </addrLine>
+          </address>
+          <salute>
+            Dear Miss Chapter,
+          </salute>
+        </opener>
+        <p>
+          I enclose a letter we have received from
+          <lb/>
+          a Polish translator with regard to the Polish rights of<lb/>
+          <emph rend="underlined">The Edwardians</emph>. Miss Sackerville-West has asked us to forward
+          <lb/>
+          any such queries to you which I
+          <del rend="strikethrough">do, and</del>
+          will do in the future{.}</p>
+        <closer>
+          <salute>
+            Yours sincerely,
+          </salute>
+          <signed>
+            The Hogarth Press,
+          </signed>
+          <signed>
+            enc Manager.
+          </signed>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>
