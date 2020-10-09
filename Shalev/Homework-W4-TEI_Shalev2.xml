@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q162336219370420">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <orgName key="Q1623362">The Hogarth Press</orgName> to <persName key="MAPP0003">A.R. Moon, Esq.</persName>, <date when="1937-04-20">20th April, 1937</date>:
+                  A machine-readable transcription</title>
+                <author>
+                    <orgName>The Hogarth Press</orgName>
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Nitzan Shalev
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Nitzan Shalev
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Nitzan Shalev
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+              c. 6 kilobytes
+            </extent>
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                  Q162336219370420
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2020</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <orgName key="Q1623362">The Hogarth Press</orgName> to <persName key="MAPP0003">A.R. Moon, Esq.</persName>,  <date when="1937-04-20">20th April, 1937</date>:
+                    </title>
+                    <author>
+                          <orgName>The Hogarth Press</orgName>
+                    </author>
+                    <idno type="callNo">
+                      UBL MS 2750 416 055
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2020-2021 Digital Media Technology course, Book and Digital Media Studies, Leiden University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>femenine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    The Hogarth Press give permission to <abbr>A.R.</abbr><expan>Arthur Reginald</expan>Moon, Esq. to quote a passage from The Edwardians in an English textbook.
+                    They request that he give credit to the author and publisher.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+
+                    <address>
+                        <addrLine>
+                        <persName key="MAPP0003">A. R. Moon, Esq.,</persName>
+                        </addrLine>
+                            <addrLine>46, Redhill Drive,</addrLine>
+                            <addrLine>EDGWARE.</addrLine>
+                    </address>
+                    <dateline>
+                        <date when="1937-04-20">20th April, 1937</date>:
+                    </dateline>
+                    <salute>
+                        Dear Sir,
+                    </salute>
+                </opener>
+                <p>
+                  We thank you for your letter of <lb/>
+                  April 17th, and are pleased to give you permission <lb/>
+                  to quote the sentence you mention from <title>THE <lb/>
+                  EDWARDIANS</title> in your forthcoming text-book on English. <lb/>
+                  We shall be grateful if you will <lb/>
+                  make due acknowledgments to <persName key="Q235505">the author{Vita Sackville-West}</persName> and to our-<lb/>
+                  selves as publishers, as you suggest.
+                </p>
+                <closer>
+                    <salute>
+                        Yours faithfully,
+                    </salute>
+                    <signed>
+                        <orgName key="Q1623362">
+                          THE HOGARTH PRESS
+                        </orgName>
+                        MANAGER. <note>According to the Modernist Archives Publishing Project, the manager at this time was a woman named Dorothy Lange (not to be confused with photographer Dorothea Lange) </note>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

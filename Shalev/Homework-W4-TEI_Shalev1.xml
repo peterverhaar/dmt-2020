@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q162336219330329">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from <orgName key="Q1623362">The Hogarth Press</orgName> to <orgName key="MAPP0001">Lowe, Brydone Ltd.</orgName>, <date when="1933-03-29">29th March, 1933
+                  </date>:
+                  A machine-readable transcription</title>
+                <author>
+                    <orgName>The Hogarth Press</orgName>
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Nitzan Shalev
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Nitzan Shalev
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Nitzan Shalev
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+              c. 7 kilobytes
+            </extent>
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    Q162336219330329
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2020</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <orgName key="Q1623362">The Hogarth Press</orgName> to <orgName key="MAPP0001">Lowe, Brydone Ltd.</orgName>, <date when="1933-03-29">29th March, 1933</date>
+                    </title>
+                    <author>
+                          <orgName>The Hogarth Press</orgName>
+                    </author>
+                    <idno type="callNo">
+                      UBL MS 2750 416 048
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2020-2021 Digital Media Technology course, Book and Digital Media Studies, Leiden University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    The Hogarth Press accept Lowe, Brydone Ltd.'s price for a printing order of Vita Sackville-West's novel, The Edwardians.
+                    The Hogarth Press Inform Lowe, Brydone Ltd. that they have ordered printing paper to be delivered to Lowe, Brydone Ltd. from Spalding &amp; Hodge
+                    and request an estimation as to when the printed sheets will be forwarded to be bound by The Ship Binding Works.
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <date when="1933-03-29">
+                            29th March, 1933
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                          Messrs. <orgName key="MAPP0001">Lowe, Brydone Ltd.,</orgName>
+                        </addrLine>
+                            <addrLine>101, Park Street,</addrLine>
+                            <addrLine>Camden Town,</addrLine>
+                            <addrLine>N.W.1.</addrLine>
+                    </address>
+                    <salute>
+                        Dear Sirs,
+                    </salute>
+                </opener>
+                <p>
+                  <emph rend="underlined">SACKVILLE WEST - <title>THE EDWARDIANS</title></emph>. <lb/>
+                  We thank you for your letter of the 24th instant, <lb/>
+                  and accept your estimate of the same date. <lb/>
+                  We have instructed Messrs.   <orgName key="Q7572964">Spalding &amp; Hodge</orgName> to <lb/>
+                  send you 33 reams Aldwych Antique Wove, Quad Crown, 50 lbs., <lb/>
+                  which will be delivered to you on Monday. We shall be glad <lb/>
+                  if you will let us know the earliest date on which you will be <lb/>
+                  able to forward the sheets to <orgName key="MAPP0002">The Ship Binding works</orgName>.
+                </p>
+                <closer>
+                    <salute>
+                        Yours faithfully,
+                    </salute>
+                    <signed>
+                        <orgName key="Q1623362">THE HOGARTH PRESS
+                        </orgName>
+                        Secretary.
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
