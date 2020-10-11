@@ -5,7 +5,7 @@
 
 <xsl:template match="bibliography">
 
-<ul>
+ <ul>
   <xsl:for-each select="item">
     <xsl:sort select="author/lastName"/>
     <li>
@@ -17,7 +17,7 @@
       <xsl:value-of select="imprint/date"/>.
     </li>
   </xsl:for-each>
-  </ul>
+ </ul>
 
 </xsl:template>
 </xsl:stylesheet>
