@@ -20,22 +20,29 @@
 
       <li>
 
-       <xsl:value-of select="author/lastName"/>,
+       <xsl:value-of select="author/lastName"/>
+       <xsl:text>, </xsl:text>
 
-       <xsl:value-of select="author/firstName"/>.
-       <!-- used span since there are two elements -->
+       <xsl:value-of select="author/firstName"/>
+       <xsl:text>. </xsl:text>
+
        <span style="font-style:italic;">
 
         <xsl:value-of font-color="red" select="fullTitle/nonFiling"/>
 
-        <xsl:value-of select="fullTitle/title"/>.
+        <xsl:value-of select="fullTitle/title"/>
+        <xsl:text>. </xsl:text>
        </span>
 
-       <xsl:value-of select="imprint/place"/>:
+       <xsl:value-of select="imprint/place"/>
+       <xsl:text>: </xsl:text>
 
-       <xsl:value-of select="imprint/publisher"/>,
+       <xsl:value-of select="imprint/publisher"/>
+       <xsl:text>, </xsl:text>
 
-       <xsl:value-of select="imprint/date"/>.
+       <xsl:value-of select="imprint/date"/>
+       <xsl:text>.</xsl:text>
+
       </li>
 
      </xsl:for-each>
