@@ -34,8 +34,10 @@
         <xsl:text>. </xsl:text>
        </span>
 
-       <xsl:value-of select="imprint/place"/>
-       <xsl:text>: </xsl:text>
+       <xsl:if test="imprint/place">
+        <xsl:value-of select="imprint/place"/>
+        <xsl:text>: </xsl:text>
+       </xsl:if>
 
        <xsl:value-of select="imprint/publisher"/>
        <xsl:text>, </xsl:text>
