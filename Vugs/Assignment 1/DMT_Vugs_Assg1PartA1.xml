@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HPRE19370108">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from The Hogarth Press to The Ship Binding Works,
+                    8 January 1937: A
+                    machine-readable transcription</title>
+                <author>
+                    The Hogarth Press
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Joris Vugs
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Joris Vugs
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Joris Vugs
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                6
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    HPRE19370108
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2020</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from <orgName key="Q1623362">The Hogarth Press
+                    </orgName> to
+                    <orgName key="MAPP0002">The Ship Binding Works</orgName>,
+                    <date when="1937-01-08">8 January 1937</date>
+                    </title>
+                    <author>
+                        <orgName key="Q1623362">The Hogarth Press</orgName>
+                    </author>
+                    <idno type="callNo">
+                        MS 2750 416 053
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2020-2021
+                    Digital Media Technology course, Book and Digital Media
+                    Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    A letter from the Hogarth Press to the Ship Binding Works
+                    regarding stock
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>Not Specified</placeName>
+                        <date when="1937-01-08"></date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                          <orgName>The Ship Binding Works</orgName>
+                        </addrLine>
+                        <addrLine>
+                          32 Great Saffron Hill
+                        </addrLine>
+                        <addrLine>
+                          E.C.L.
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Sirs,
+                    </salute>
+                </opener>
+                <p>
+                    Will you kindly hand over the <orgName>Garden <lb/>
+                    City Press</orgName> on Tuesday the complete stock of sheets,
+                    <lb/> bound copies, jackets and brasses of the following<lb/>
+                    books by <persName>V. Sackville-West</persName>:-<lb/>
+                    <lb/>
+                    <title>THE EDWARDIANS</title>. 3/6 and 7/6.<lb/>
+                    <title>ALL PASSION SPENT</title>. 3/6 and 7/6<lb/>
+                </p>
+                <closer>
+                    <salute>
+                        Yours faithfully,
+                    </salute>
+                    <signed>
+                      <orgName>The Hogarth Press</orgName><lb/>
+                      Manager<lb/>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="HPRE19300917">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from The Hogarth Press to R &#38; R Clark,
+                    17 September 1930: A
+                    machine-readable transcription</title>
+                <author>
+                    The Hogarth Press
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Joris Vugs
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Joris Vugs
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Joris Vugs
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                7
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    HHPRE19300917
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date>2020</date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>
+                      Letter from <orgName key="Q1623362">The Hogarth Press
+                      </orgName> to
+                      <orgName key="CM1232630">R &#38; R Clark</orgName>,
+                      <date when="1930-09-17">17 September 1930</date>
+                    </title>
+                    <author>
+                        <orgName key="Q1623362">The Hogarth Press</orgName>
+                    </author>
+                    <idno type="callNo">
+                        MS 2750 416 035
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2020-2021
+                    Digital Media Technology course, Book and Digital Media
+                    Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="eng">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    A letter from the Hogarth Press to the Ship Binding Works regarding stock
+                </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>Not Specified</placeName>
+                        <date when="1930-09-17">17 September, 1930</date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                          Messrs. <orgName>R. &#38; R. Clark Lit.</orgName>
+                        </addrLine>
+                        <addrLine>
+                          Brandon Street
+                        </addrLine>
+                        <addrLine>
+                          Edinburgh
+                        </addrLine>
+                    </address>
+                    <salute>
+                        Dear Sirs,
+                    </salute>
+                </opener>
+                <p>
+                    <title>THE EDWARDIANS</title> - Third Impression.<lb/>
+                    We shall be glad if you will print a third impression, 3000,<lb/>
+                    of the above book, and despatch to the <orgName>Ship Binding Works</orgName> as soon<lb/>
+                    as possible as the matter is urgent. <persName>Messrs. Spalding &#38; Hodge</persName> are<lb/>
+                    delivering to you tomorrow, or Friday, 33 reams of <orgName>Kingsway Ant. Ld.<lb/>
+                    Cr. Svo.</orgName> paper, which we believe to be sufficient to print 3000 copies.<lb/>
+                    Kindly note to alter SECOND IMPRESSION to THIRD IMPRESSION on the<lb/>
+                    title page, and on the back of the title page/ add 'third impression'<lb/>
+                    <date when="1930-10">October 1930</date>, in italics. We shall re quire 2750 jackets only as<lb/>
+                    our binders hold a balance of about 300. Please let us know the<lb/>
+                    earlierst date when you will be able to deliver to our binders, so<lb/>
+                    as to enable us to get some idea when we are likely to have the bound<lb/>
+                    copies delivered at the Press.<lb/>
+                </p>
+                <closer>
+                    <salute>
+                        Yours faithfully,
+                    </salute>
+                    <signed>
+                      <orgName>The Hogarth Press</orgName><lb/>
+                      <unclear reason="faded">Autograph</unclear><note>This is most likely the autograph of Peggy Belsher, who was a secretary at the Press from 1928 to 1936, as the barely legible signature seems to overlap with her name and the time period.</note><lb/>
+                      Secretary<lb/>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
