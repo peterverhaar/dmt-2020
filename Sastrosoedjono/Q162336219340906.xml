@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q162336219340906">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from The Hogarth Press to Birmingham Repertory Theatre, 6 September 1934: a machine-readable transcription</title>
+        <author>
+          The Hogarth Press
+        </author>
+        <principal>Dr. P.A.F. Verhaar</principal>
+        <respStmt>
+          <resp>Creation of machine-readable version:
+          </resp>
+          <name>
+            Gessica Sastrosoedjono
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>Conversion to TEI-conformant markup:
+          </resp>
+          <name>
+            Gessica Sastrosoedjono
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>Editorial annotations:
+          </resp>
+          <name>
+            Gessica Sastrosoedjono
+          </name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        5,21kB
+      </extent>
+
+      <publicationStmt>
+        <distributor>Leiden University</distributor>
+        <pubPlace>Leiden, The Netherlands
+        </pubPlace>
+        <address>
+          <addrLine>P.O. Box 9515</addrLine>
+          <addrLine>2300 RA Leiden</addrLine>
+        </address>
+        <idno>
+          Q162336219340906
+        </idno>
+        <availability>
+          <p>Publicly accessible
+          </p>
+        </availability>
+        <date>
+          2020
+        </date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl>
+          <title>Letter from The
+            <orgName key="Q1623362">Hogarth Press</orgName>
+            to <orgName key="Q4916786">Birmingham Repertory Theatre</orgName>,
+            <date when="1934-09-06">06 September 1934</date>.
+          </title>
+          <author>
+            The Hogarth Press
+          </author>
+          <idno type="callNo">
+            MS 2750 416 051
+          </idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Prepared by students of the
+          2020-2021
+          Digital Media Technology
+          course, Book and Digital Media Studies, Leiden University.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p/>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="http://classificationweb.net">
+          <term>Correspondence</term>
+        </keywords>
+      </textClass>
+      <textClass>
+        <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+          <term>Nonfiction</term>
+          <term>Prose</term>
+          <term></term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <front>
+      <div type="summary">
+        <p>
+          The Manager of the publishing company The Hogarths Press suggests a number of the pocket edition of Vita Sackville-West's novel The Edwardians to be put for sale at the
+          Birmingham Repertory Theatre, as the latter was producing a play based on the novel.
+        </p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+        <opener>
+          <dateline>
+            <placeName></placeName>
+            <date when="1934-09-06">September 6th.1934</date>
+          </dateline>
+          <address>
+            <addrLine>The Manager,</addrLine>
+            <addrLine><orgName key="Q4916786">Birmingham Repertory Theatre,</orgName></addrLine>
+            <addrLine>Birmingham.</addrLine>
+          </address>
+          <salute>
+            Dear Sir,
+          </salute>
+        </opener>
+        <p>
+          <persName key="Q235505">Miss Sackville-West</persName>'s <title type="novel"><emph rend="underlined">Edwardians</emph></title> is, I believe, to<lb/>
+          be produced at the <orgName>Birmingham Repertory Theatre</orgName> on Saturday<lb/>
+          the 15th <choice><abbr>inst.</abbr><expan>instante mense</expan></choice> We publish a pocket edition of the novel at<lb/>
+          <choice><abbr>3&#x2F;6d</abbr><expan>three and six</expan></choice>
+                    <note>
+                      <p>I have decided to treat '3&#x2F;6d' as one unit of abbreviation and not only expand the 'd' for 'danarius', as the term '3&#x2F;6d' was
+                        commonly used to signify a value less than a pound, i.e. three shillings and sixpence.
+                       </p>
+                     </note>, and I am writing to ask whether you would consider<lb/>
+          taking a certain number for sale at the theatre. We could<lb/>
+          supply them at a discount of 33 &#8531;&#x25;, and should be glad to pay<lb/>
+          carriage.
+        </p>
+        <closer>
+          <salute>
+            Yours faithfully,
+          </salute>
+          <signed>
+            <orgName key="Q1623362">THe Hogarth Press,</orgName><lb/>
+            Manager
+          </signed>
+          <seg>
+
+          </seg>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

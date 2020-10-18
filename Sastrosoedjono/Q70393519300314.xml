@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q70393519300314">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Letter from Leonard Woolf to Vita Sackville-West, 14 March 1930: a machine-readable transcription</title>
+        <author>
+          Leonard Woolf
+        </author>
+        <principal>Dr. P.A.F. Verhaar</principal>
+        <respStmt>
+          <resp>Creation of machine-readable version:
+          </resp>
+          <name>
+            Gessica Sastrosoedjono
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>Conversion to TEI-conformant markup:
+          </resp>
+          <name>
+            Gessica Sastrosoedjono
+          </name>
+        </respStmt>
+        <respStmt>
+          <resp>Editorial annotations:
+          </resp>
+          <name>
+            Gessica Sastrosoedjono
+          </name>
+        </respStmt>
+      </titleStmt>
+      <extent>
+        5,56kB
+      </extent>
+
+      <publicationStmt>
+        <distributor>Leiden University</distributor>
+        <pubPlace>Leiden, The Netherlands
+        </pubPlace>
+        <address>
+          <addrLine>P.O. Box 9515</addrLine>
+          <addrLine>2300 RA Leiden</addrLine>
+        </address>
+        <idno>
+          Q70393519300314
+        </idno>
+        <availability>
+          <p>Publicly accessible
+          </p>
+        </availability>
+        <date>2020</date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl>
+          <title>Letter from <persName key="Q703935">Leonard Woolf</persName>
+            to <persName key="Q235505">Vita Sackville-West</persName>,
+            <date when="1930-03-14">14 March 1930</date>.
+          </title>
+          <author>
+            Leonard Woolf
+          </author>
+          <idno type="callNo">
+            MS 2750 416 012
+          </idno>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Prepared by students of the 2020-2021 Digital Media Technology course, Book and Digital Media Studies, Leiden University.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p/>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="eng">English</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="http://classificationweb.net">
+          <term>Correspondence</term>
+        </keywords>
+      </textClass>
+      <textClass>
+        <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+          <term>Nonfiction</term>
+          <term>Prose</term>
+          <term>Male</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+
+  <text>
+    <front>
+      <div type="summary">
+        <p>
+          Leonard Woolf discusses publishing matters with Vita Sackville-West, such as the type of paper that will be used for her novel, The Edwardians, as well as the photo
+          for the jacket of the novel. His appointment with the Secretarty of the Book Society is mentioned as well. In the last paragraph, their frienship
+          is shown as Woolf comments on Sackville-West's move from Long Barn, Kent to Sussex.
+        </p>
+      </div>
+    </front>
+    <body>
+      <div type="letter">
+        <opener>
+          <dateline>
+            <placeName></placeName>
+            <date when="1930-03-14">14 March, 1930</date>
+          </dateline>
+          <address>
+            <addrLine>
+              Mrs
+              <persName>Nicolson</persName>
+              <note>
+                <p>Vita Sackville-West married Harold Nicolson in 1913, but used her maiden name as an author.</p>
+              </note>
+            </addrLine>
+            <addrLine>4 King's Bench Walk</addrLine>
+            <addrLine>E.C.4</addrLine>
+          </address>
+          <salute>
+            Dear
+            <persName key="Q235505">Vita</persName>,
+          </salute>
+          <seg type="subject">
+            <emph rend="underlined">
+              <persName>SACKVILLE-WEST</persName>:
+              <title type="novel">THE EDWARDIANS</title>
+            </emph>
+          </seg>
+        </opener>
+        <p>
+          I enclose a specimen page of <title type="novel">THE EDWARDIANS</title>. I am afraid<lb/>
+          it is not on the paper which we shall use because we could not get<lb/>
+          it in time. It will be practically the same as that used in <title type="novel">ORLANDO</title><lb/>
+        </p>
+        <p>
+          You <choice><sic>wont</sic><corr>won't</corr></choice> forget about the photo for the jacket?
+        </p>
+        <p>
+          I saw the Secretary of the Book Society and he will try<lb/>
+          to get a decision in the next week. <persName>Hugh</persName> returns today<lb/>
+        </p>
+        <p>
+          I was glad to hear you have heard of the possibility of<lb/>
+          a house in <placeName key="Q23346">Sussex</placeName>. But I cannot imagine a more awful blow than<lb/>
+          being uprooted from one's house and garden, especially when one has<lb/>
+          made them as you have <placeName key="Q2204332">Long Barn</placeName>.
+        </p>
+        <closer>
+          <salute>
+            Yours
+          </salute>
+          <signed>
+            <persName key="Q703935">Leonard Woolf</persName>
+          </signed>
+          <seg></seg>
+        </closer>
+      </div>
+    </body>
+  </text>
+</TEI>
