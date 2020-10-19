@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q23550519460715">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from V. Sackville-West to Leonard, 15th July 1946: A
+                    machine-readable transcription</title>
+                <author>
+                    V. Sackville-West
+                </author>
+                <principal>Prof. dr. Adriaan van der Weel</principal>
+                <respStmt>
+                    <resp>Creation of machine-readable version: </resp>
+                    <name>
+                        Mich&#xE8;le Hoekstra
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Conversion to TEI-conformant markup: </resp>
+                    <name>
+                        Mich&#xE8;le Hoekstra
+                    </name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editorial annotations: </resp>
+                    <name>
+                        Mich&#xE8;le Hoekstra
+                    </name>
+                </respStmt>
+            </titleStmt>
+            <extent>
+                <!-- file size in kBytes -->
+            </extent>
+
+
+            <publicationStmt>
+                <distributor>Leiden University</distributor>
+                <pubPlace>Leiden, The Netherlands </pubPlace>
+                <address>
+                    <addrLine>P.O. Box 9515</addrLine>
+                    <addrLine>2300 RA Leiden</addrLine>
+                </address>
+                <idno>
+                    Q23550519460715
+                </idno>
+                <availability>
+                    <p>Publicly accessible </p>
+                </availability>
+                <date> 2020 </date>
+            </publicationStmt>
+
+
+            <sourceDesc>
+                <bibl>
+                    <title>Letter from V. Sackville-West to Leonard, 15th July 1946
+                    </title>
+                    <author>
+                        V. Sackville-West
+                    </author>
+                    <idno type="callNo">
+                        MS 2750 416 073
+                    </idno>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Prepared by students of the 2020 course, Book and Digital Media Studies, Leiden
+                    University</p>
+            </projectDesc>
+            <editorialDecl>
+                <p/>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="dut">Dutch</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="http://classificationweb.net">
+                    <term>Correspondence</term>
+                </keywords>
+            </textClass>
+            <textClass>
+                <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
+                    <term>nonfiction</term>
+                    <term>prose</term>
+                    <term>masculine</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <front>
+            <div type="summary">
+                <p>
+                    Letter from V. Sackville-West to Leonard in which she introduces Mr. Jullian as suitable artist to illustrate The Edwardians
+                  </p>
+            </div>
+        </front>
+        <body>
+            <div type="letter">
+                <opener>
+                    <dateline>
+                        <placeName>
+                          Sissinghurst Castle, <placeName>Kent</placeName>
+                        </placeName>
+                        <date when="1946-07-15">
+                        </date>
+                    </dateline>
+                    <address>
+                        <addrLine>
+                            <persName> Leonard </persName>
+                        </addrLine>
+                        <addrLine>
+                            <!-- recipient's address (add <addrLine>s as required) n.v.t. -->
+                        </addrLine>
+                    </address>
+                    <salute>
+                        My dear <persName key='(Q703935)'>Leonard</persName>,
+                    </salute>
+                </opener>
+                <p>
+                  This is to introduce Mr. <persName>Jullian</persName> who is
+                  a French artist and wants to discuss with you
+                  the possibility of illustrating <title key='(Q3824215)'>The Edwardians</title>.
+                  I gave him a letter for <persName>John Lehman</persName> some time
+                  ago but <persName>John</persName> told him that he was leaving the
+                  Press and as Mr. <persName>Jullian</persName> was just going back to
+                  France the matter was left in abeyance. He has
+                  now returned to England and will no doubt bring
+                  this <choice><sic>nore</sic><corr>note</corr></choice> in person. I have never met him but
+                  I have seen some of his drawings which are
+                  really delightful and would be most suitable
+                  for <title key='(Q3824215)'>The Edwardians</title>.
+                </p>
+                <closer>
+                    <salute>
+                        Yours ever,
+                    </salute>
+                    <signed> <persName key='(Q235505)'>Vita</persName> </signed>
+                    <seg>
+                        <!-- post scriptum n.v.t.-->
+                    </seg>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
