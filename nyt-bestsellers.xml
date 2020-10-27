@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result_set>
+    <status>OK</status>
+    <copyright>Copyright (c) 2016 The New York Times Company. All Rights Reserved.</copyright>
+    <num_results>20</num_results>
+    <last_modified>2016-05-27T13:38:01-04:00</last_modified>
+    <results>
+        <list_name>Combined Print and E-Book Fiction</list_name>
+        <list_name_encoded>combined-print-and-e-book-fiction</list_name_encoded>
+        <bestsellers_date>2016-05-21</bestsellers_date>
+        <published_date>2016-06-05</published_date>
+        <published_date_description/>
+        <next_published_date>2016-06-12</next_published_date>
+        <previous_published_date>2016-05-29</previous_published_date>
+        <display_name><![CDATA[Combined Print & E-Book Fiction]]></display_name>
+        <normal_list_ends_at>15</normal_list_ends_at>
+        <updated>WEEKLY</updated>
+        <books>
+            <book>
+                <rank>1</rank>
+                <rank_last_week>1</rank_last_week>
+                <weeks_on_list>16</weeks_on_list>
+                <asterisk>0</asterisk>
+                <dagger>0</dagger>
+                <primary_isbn10/>
+                <primary_isbn13>9781101606377</primary_isbn13>
+                <publisher>Penguin</publisher>
+                <description>A woman who has barely been beyond her English village finds herself
+                    while caring for a wealthy, embittered quadriplegic.</description>
+                <price>0</price>
+                <title>ME BEFORE YOU</title>
+                <author>Jojo Moyes</author>
+                <contributor>by Jojo Moyes</contributor>
+                <contributor_note/>
+                <book_image>https://s1.nyt.com/du/books/images/9780143124542.jpg</book_image>
+                <book_image_width>326</book_image_width>
+                <book_image_height>500</book_image_height>
+                <amazon_product_url>http://www.amazon.com/Me-Before-You-A-Novel/dp/0143124544?tag=thenewyorktim-20</amazon_product_url>
+                <age_group/>
+                <book_review_link/>
+                <first_chapter_link/>
+                <sunday_review_link>https://www.nytimes.com/2013/01/06/books/review/me-before-you-by-jojo-moyes.html</sunday_review_link>
+                <article_chapter_link/>
+                <isbns>
+                    <isbn>
+                        <isbn10>0670026603</isbn10>
+                        <isbn13>9780670026609</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>0143124544</isbn10>
+                        <isbn13>9780143124542</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>1594137390</isbn10>
+                        <isbn13>9781594137396</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>0143109464</isbn10>
+                        <isbn13>9780143109464</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>0143130153</isbn10>
+                        <isbn13>9780143130154</isbn13>
+                    </isbn>
+                </isbns>
+                <buy_links>
+                    <buy_link>
+                        <name>Local Booksellers</name>
+                        <url>http://www.indiebound.org/book/9781101606377?aff=NYT</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Barnes and Noble</name>
+                        <url>http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781101606377</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Amazon</name>
+                        <url>http://www.amazon.com/Me-Before-You-A-Novel/dp/0143124544?tag=thenewyorktim-20</url>
+                    </buy_link>
+                </buy_links>
+            </book>
+            <book>
+                <rank>2</rank>
+                <rank_last_week>2</rank_last_week>
+                <weeks_on_list>3</weeks_on_list>
+                <asterisk>0</asterisk>
+                <dagger>0</dagger>
+                <primary_isbn10>031629005X</primary_isbn10>
+                <primary_isbn13>9780316290050</primary_isbn13>
+                <publisher>Little, Brown</publisher>
+                <description>When a brutal murder threatens the domestic happiness of the San
+                    Francisco police detective Lindsay Boxer, she turns for help to the Women’s
+                    Murder Club.</description>
+                <price>0</price>
+                <title>15TH AFFAIR</title>
+                <author>James Patterson and Maxine Paetro</author>
+                <contributor>by James Patterson and Maxine Paetro</contributor>
+                <contributor_note/>
+                <book_image>https://s1.nyt.com/du/books/images/9780316407076.jpg</book_image>
+                <book_image_width>323</book_image_width>
+                <book_image_height>500</book_image_height>
+                <amazon_product_url>http://www.amazon.com/15th-Affair-Womens-Murder-Club/dp/0316407070?tag=thenewyorktim-20</amazon_product_url>
+                <age_group/>
+                <book_review_link/>
+                <first_chapter_link/>
+                <sunday_review_link/>
+                <article_chapter_link/>
+                <isbns>
+                    <isbn>
+                        <isbn10>0316407070</isbn10>
+                        <isbn13>9780316407076</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>0316290033</isbn10>
+                        <isbn13>9780316290036</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>031629005X</isbn10>
+                        <isbn13>9780316290050</isbn13>
+                    </isbn>
+                </isbns>
+                <buy_links>
+                    <buy_link>
+                        <name>Local Booksellers</name>
+                        <url>http://www.indiebound.org/book/9780316290050?aff=NYT</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Barnes and Noble</name>
+                        <url>http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780316290050</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Amazon</name>
+                        <url>http://www.amazon.com/15th-Affair-Womens-Murder-Club/dp/0316407070?tag=thenewyorktim-20</url>
+                    </buy_link>
+                </buy_links>
+            </book>
+            <book>
+                <rank>3</rank>
+                <rank_last_week>0</rank_last_week>
+                <weeks_on_list>1</weeks_on_list>
+                <asterisk>0</asterisk>
+                <dagger>0</dagger>
+                <primary_isbn10>1466872926</primary_isbn10>
+                <primary_isbn13>9781466872929</primary_isbn13>
+                <publisher>St. Martin's</publisher>
+                <description>On the North Carolina island of Belle Isle, a woman investigates her
+                    husband’s shady financial affairs after his mysterious death.</description>
+                <price>0</price>
+                <title>THE WEEKENDERS</title>
+                <author>Mary Kay Andrews</author>
+                <contributor>by Mary Kay Andrews</contributor>
+                <contributor_note/>
+                <book_image>https://s1.nyt.com/du/books/images/9781466872929.jpg</book_image>
+                <book_image_width>330</book_image_width>
+                <book_image_height>500</book_image_height>
+                <amazon_product_url>http://www.amazon.com/Weekenders-Novel-Mary-Kay-Andrews-ebook/dp/B0177626W4?tag=thenewyorktim-20</amazon_product_url>
+                <age_group/>
+                <book_review_link/>
+                <first_chapter_link/>
+                <sunday_review_link/>
+                <article_chapter_link/>
+                <isbns>
+                    <isbn>
+                        <isbn10>1250065941</isbn10>
+                        <isbn13>9781250065940</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>1250107067</isbn10>
+                        <isbn13>9781250107060</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>1466872926</isbn10>
+                        <isbn13>9781466872929</isbn13>
+                    </isbn>
+                </isbns>
+                <buy_links>
+                    <buy_link>
+                        <name>Local Booksellers</name>
+                        <url>http://www.indiebound.org/book/9781466872929?aff=NYT</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Barnes and Noble</name>
+                        <url>http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781466872929</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Amazon</name>
+                        <url>http://www.amazon.com/Weekenders-Novel-Mary-Kay-Andrews-ebook/dp/B0177626W4?tag=thenewyorktim-20</url>
+                    </buy_link>
+                </buy_links>
+            </book>
+            <book>
+                <rank>4</rank>
+                <rank_last_week>3</rank_last_week>
+                <weeks_on_list>5</weeks_on_list>
+                <asterisk>0</asterisk>
+                <dagger>0</dagger>
+                <primary_isbn10>145558648X</primary_isbn10>
+                <primary_isbn13>9781455586486</primary_isbn13>
+                <publisher>Grand Central</publisher>
+                <description>In a sequel to “Memory Man,” Amos Decker, a detective with an
+                    extraordinary memory, investigates the case of a convicted killer who wins a
+                    last-minute reprieve.</description>
+                <price>0</price>
+                <title>THE LAST MILE</title>
+                <author>David Baldacci</author>
+                <contributor>by David Baldacci</contributor>
+                <contributor_note/>
+                <book_image>https://s1.nyt.com/du/books/images/9781455586455.jpg</book_image>
+                <book_image_width>331</book_image_width>
+                <book_image_height>500</book_image_height>
+                <amazon_product_url>http://www.amazon.com/The-Last-Mile-Amos-Decker-ebook/dp/B016JC0THQ?tag=thenewyorktim-20</amazon_product_url>
+                <age_group/>
+                <book_review_link/>
+                <first_chapter_link/>
+                <sunday_review_link/>
+                <article_chapter_link/>
+                <isbns>
+                    <isbn>
+                        <isbn10>1455586455</isbn10>
+                        <isbn13>9781455586455</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>145558648X</isbn10>
+                        <isbn13>9781455586486</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>1455566020</isbn10>
+                        <isbn13>9781455566020</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>1455586463</isbn10>
+                        <isbn13>9781455586462</isbn13>
+                    </isbn>
+                </isbns>
+                <buy_links>
+                    <buy_link>
+                        <name>Local Booksellers</name>
+                        <url>http://www.indiebound.org/book/9781455586486?aff=NYT</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Barnes and Noble</name>
+                        <url>http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781455586486</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Amazon</name>
+                        <url>http://www.amazon.com/The-Last-Mile-Amos-Decker-ebook/dp/B016JC0THQ?tag=thenewyorktim-20</url>
+                    </buy_link>
+                </buy_links>
+            </book>
+            <book>
+                <rank>5</rank>
+                <rank_last_week>0</rank_last_week>
+                <weeks_on_list>1</weeks_on_list>
+                <asterisk>0</asterisk>
+                <dagger>0</dagger>
+                <primary_isbn10>0062200631</primary_isbn10>
+                <primary_isbn13>9780062200631</primary_isbn13>
+                <publisher>Morrow/HarperCollins</publisher>
+                <description>During an epidemic that causes people to spontaneously combust, an
+                    infected New Hampshire nurse fights to stay alive, aided by a mysterious figure
+                    known as the Fireman.</description>
+                <price>0</price>
+                <title>THE FIREMAN</title>
+                <author>Joe Hill</author>
+                <contributor>by Joe Hill</contributor>
+                <contributor_note/>
+                <book_image>https://s1.nyt.com/du/books/images/9780062200655.jpg</book_image>
+                <book_image_width>331</book_image_width>
+                <book_image_height>500</book_image_height>
+                <amazon_product_url>http://www.amazon.com/Fireman-Novel-Joe-Hill-ebook/dp/B013C5M08O?tag=thenewyorktim-20</amazon_product_url>
+                <age_group/>
+                <book_review_link/>
+                <first_chapter_link/>
+                <sunday_review_link/>
+                <article_chapter_link/>
+                <isbns>
+                    <isbn>
+                        <isbn10>0062200631</isbn10>
+                        <isbn13>9780062200631</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>0062200658</isbn10>
+                        <isbn13>9780062200655</isbn13>
+                    </isbn>
+                </isbns>
+                <buy_links>
+                    <buy_link>
+                        <name>Local Booksellers</name>
+                        <url>http://www.indiebound.org/book/9780062200631?aff=NYT</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Barnes and Noble</name>
+                        <url>http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062200631</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Amazon</name>
+                        <url>http://www.amazon.com/Fireman-Novel-Joe-Hill-ebook/dp/B013C5M08O?tag=thenewyorktim-20</url>
+                    </buy_link>
+                </buy_links>
+            </book>
+            <book>
+                <rank>6</rank>
+                <rank_last_week>0</rank_last_week>
+                <weeks_on_list>1</weeks_on_list>
+                <asterisk>0</asterisk>
+                <dagger>0</dagger>
+                <primary_isbn10>145552588X</primary_isbn10>
+                <primary_isbn13>9781455525881</primary_isbn13>
+                <publisher>Grand Central</publisher>
+                <description>In a sequel to “The Ice Limit” (2000), Gideon Crew pursues a meteorite
+                    that has sunk to the ocean floor. Or is it only a meteorite?</description>
+                <price>0</price>
+                <title>BEYOND THE ICE LIMIT</title>
+                <author>Douglas Preston and Lincoln Child</author>
+                <contributor>by Douglas Preston and Lincoln Child</contributor>
+                <contributor_note/>
+                <book_image>https://s1.nyt.com/du/books/images/9781455525881.jpg</book_image>
+                <book_image_width>331</book_image_width>
+                <book_image_height>500</book_image_height>
+                <amazon_product_url>http://www.amazon.com/Beyond-Ice-Limit-Gideon-Novel-ebook/dp/B016JC0SPO?tag=thenewyorktim-20</amazon_product_url>
+                <age_group/>
+                <book_review_link/>
+                <first_chapter_link/>
+                <sunday_review_link/>
+                <article_chapter_link/>
+                <isbns>
+                    <isbn>
+                        <isbn10>1455525863</isbn10>
+                        <isbn13>9781455525867</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>145552588X</isbn10>
+                        <isbn13>9781455525881</isbn13>
+                    </isbn>
+                </isbns>
+                <buy_links>
+                    <buy_link>
+                        <name>Local Booksellers</name>
+                        <url>http://www.indiebound.org/book/9781455525881?aff=NYT</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Barnes and Noble</name>
+                        <url>http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781455525881</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Amazon</name>
+                        <url>http://www.amazon.com/Beyond-Ice-Limit-Gideon-Novel-ebook/dp/B016JC0SPO?tag=thenewyorktim-20</url>
+                    </buy_link>
+                </buy_links>
+            </book>
+            <book>
+                <rank>7</rank>
+                <rank_last_week>5</rank_last_week>
+                <weeks_on_list>65</weeks_on_list>
+                <asterisk>0</asterisk>
+                <dagger>0</dagger>
+                <primary_isbn10>1594633665</primary_isbn10>
+                <primary_isbn13>9781594633669</primary_isbn13>
+                <publisher>Riverhead</publisher>
+                <description>A psychological thriller set in the environs of London is full of
+                    complications and betrayals.</description>
+                <price>0</price>
+                <title>THE GIRL ON THE TRAIN</title>
+                <author>Paula Hawkins</author>
+                <contributor>by Paula Hawkins</contributor>
+                <contributor_note/>
+                <book_image>https://s1.nyt.com/du/books/images/9781594633669.jpg</book_image>
+                <book_image_width>128</book_image_width>
+                <book_image_height>193</book_image_height>
+                <amazon_product_url>http://www.amazon.com/The-Girl-Train-A-Novel-ebook/dp/B00L9B7IKE?tag=thenewyorktim-20</amazon_product_url>
+                <age_group/>
+                <book_review_link>https://www.nytimes.com/2015/01/05/books/the-girl-on-the-train-by-paula-hawkins.html</book_review_link>
+                <first_chapter_link/>
+                <sunday_review_link>https://www.nytimes.com/2015/02/01/books/review/the-girl-on-the-train-by-paula-hawkins.html</sunday_review_link>
+                <article_chapter_link/>
+                <isbns>
+                    <isbn>
+                        <isbn10>1594633665</isbn10>
+                        <isbn13>9781594633669</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>0698185390</isbn10>
+                        <isbn13>9780698185395</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>1410477762</isbn10>
+                        <isbn13>9781410477767</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>0857522329</isbn10>
+                        <isbn13>9780857522320</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>1448171687</isbn10>
+                        <isbn13>9781448171682</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>1594634122</isbn10>
+                        <isbn13>9781594634123</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>038568231X</isbn10>
+                        <isbn13>9780385682312</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>1594634025</isbn10>
+                        <isbn13>9781594634024</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>0735212155</isbn10>
+                        <isbn13>9780735212152</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>0735212163</isbn10>
+                        <isbn13>9780735212169</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>1432834355</isbn10>
+                        <isbn13>9781432834357</isbn13>
+                    </isbn>
+                </isbns>
+                <buy_links>
+                    <buy_link>
+                        <name>Local Booksellers</name>
+                        <url>http://www.indiebound.org/book/9781594633669?aff=NYT</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Barnes and Noble</name>
+                        <url>http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781594633669</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Amazon</name>
+                        <url>http://www.amazon.com/The-Girl-Train-A-Novel-ebook/dp/B00L9B7IKE?tag=thenewyorktim-20</url>
+                    </buy_link>
+                </buy_links>
+            </book>
+            <book>
+                <rank>8</rank>
+                <rank_last_week>4</rank_last_week>
+                <weeks_on_list>4</weeks_on_list>
+                <asterisk>0</asterisk>
+                <dagger>0</dagger>
+                <primary_isbn10>None</primary_isbn10>
+                <primary_isbn13>9780698407107</primary_isbn13>
+                <publisher>Putnam</publisher>
+                <description>Lucas Davenport, who has left the Minnesota Bureau of Criminal
+                    Apprehension, is in Iowa trying to foil a plot to assassinate a Hillary
+                    Clinton-like candidate. The 26th Lucas Davenport thriller.</description>
+                <price>0</price>
+                <title>EXTREME PREY</title>
+                <author>John Sandford</author>
+                <contributor>by John Sandford</contributor>
+                <contributor_note/>
+                <book_image>https://s1.nyt.com/du/books/images/9780698407107.jpg</book_image>
+                <book_image_width>331</book_image_width>
+                <book_image_height>500</book_image_height>
+                <amazon_product_url>http://www.amazon.com/Extreme-Prey-John-Sandford-ebook/dp/B013D664Q6?tag=thenewyorktim-20</amazon_product_url>
+                <age_group/>
+                <book_review_link/>
+                <first_chapter_link/>
+                <sunday_review_link/>
+                <article_chapter_link/>
+                <isbns>
+                    <isbn>
+                        <isbn10>0399176055</isbn10>
+                        <isbn13>9780399176050</isbn13>
+                    </isbn>
+                </isbns>
+                <buy_links>
+                    <buy_link>
+                        <name>Local Booksellers</name>
+                        <url>http://www.indiebound.org/book/9780698407107?aff=NYT</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Barnes and Noble</name>
+                        <url>http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780698407107</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Amazon</name>
+                        <url>http://www.amazon.com/Extreme-Prey-John-Sandford-ebook/dp/B013D664Q6?tag=thenewyorktim-20</url>
+                    </buy_link>
+                </buy_links>
+            </book>
+            <book>
+                <rank>9</rank>
+                <rank_last_week>0</rank_last_week>
+                <weeks_on_list>1</weeks_on_list>
+                <asterisk>0</asterisk>
+                <dagger>0</dagger>
+                <primary_isbn10>1939996392</primary_isbn10>
+                <primary_isbn13>9781939996398</primary_isbn13>
+                <publisher>Denise Grover Swank</publisher>
+                <description>A nemesis is arrested, but his extensive network threatens revenge in
+                    the ninth book in the Rose Gardner mystery series.</description>
+                <price>0</price>
+                <title>THIRTY-SIX AND A HALF MOTIVES</title>
+                <author>Denise Grover Swank</author>
+                <contributor>by Denise Grover Swank</contributor>
+                <contributor_note/>
+                <book_image>https://s1.nyt.com/du/books/images/9781939996398.jpg</book_image>
+                <book_image_width>313</book_image_width>
+                <book_image_height>500</book_image_height>
+                <amazon_product_url>http://www.amazon.com/Thirty-Six-Half-Motives-Gardner-Mystery-ebook/dp/B01C6PX9FY?tag=thenewyorktim-20</amazon_product_url>
+                <age_group/>
+                <book_review_link/>
+                <first_chapter_link/>
+                <sunday_review_link/>
+                <article_chapter_link/>
+                <isbns>
+                    <isbn>
+                        <isbn10>1939996392</isbn10>
+                        <isbn13>9781939996398</isbn13>
+                    </isbn>
+                </isbns>
+                <buy_links>
+                    <buy_link>
+                        <name>Local Booksellers</name>
+                        <url>http://www.indiebound.org/book/9781939996398?aff=NYT</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Barnes and Noble</name>
+                        <url>http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781939996398</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Amazon</name>
+                        <url>http://www.amazon.com/Thirty-Six-Half-Motives-Gardner-Mystery-ebook/dp/B01C6PX9FY?tag=thenewyorktim-20</url>
+                    </buy_link>
+                </buy_links>
+            </book>
+            <book>
+                <rank>10</rank>
+                <rank_last_week>0</rank_last_week>
+                <weeks_on_list>1</weeks_on_list>
+                <asterisk>0</asterisk>
+                <dagger>0</dagger>
+                <primary_isbn10>None</primary_isbn10>
+                <primary_isbn13>9781440635861</primary_isbn13>
+                <publisher>Berkley</publisher>
+                <description>When a widow on Nantucket learns she may lose her house, she turns it
+                    into a bed-and-breakfast. Originally published in 2008.</description>
+                <price>0</price>
+                <title>THE BEACH HOUSE</title>
+                <author>Jane Green</author>
+                <contributor>by Jane Green</contributor>
+                <contributor_note/>
+                <book_image>https://s1.nyt.com/du/books/images/9781440635861.jpg</book_image>
+                <book_image_width>330</book_image_width>
+                <book_image_height>500</book_image_height>
+                <amazon_product_url>http://www.amazon.com/Beach-House-Novel-Jane-Green-ebook/dp/B0011UCOXE?tag=thenewyorktim-20</amazon_product_url>
+                <age_group/>
+                <book_review_link/>
+                <first_chapter_link/>
+                <sunday_review_link/>
+                <article_chapter_link/>
+                <isbns/>
+                <buy_links>
+                    <buy_link>
+                        <name>Local Booksellers</name>
+                        <url>http://www.indiebound.org/book/9781440635861?aff=NYT</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Barnes and Noble</name>
+                        <url>http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781440635861</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Amazon</name>
+                        <url>http://www.amazon.com/Beach-House-Novel-Jane-Green-ebook/dp/B0011UCOXE?tag=thenewyorktim-20</url>
+                    </buy_link>
+                </buy_links>
+            </book>
+            <book>
+                <rank>11</rank>
+                <rank_last_week>0</rank_last_week>
+                <weeks_on_list>1</weeks_on_list>
+                <asterisk>0</asterisk>
+                <dagger>0</dagger>
+                <primary_isbn10>None</primary_isbn10>
+                <primary_isbn13>9780735220911</primary_isbn13>
+                <publisher>Viking</publisher>
+                <description>Wyoming’s Sheriff Walt Longmire (the inspiration for the Netflix series
+                    “Longmire”) encounters the supernatural in this novella.</description>
+                <price>0</price>
+                <title>THE HIGHWAYMAN</title>
+                <author>Craig Johnson</author>
+                <contributor>by Craig Johnson</contributor>
+                <contributor_note/>
+                <book_image>https://s1.nyt.com/du/books/images/9780735220898.jpg</book_image>
+                <book_image_width>354</book_image_width>
+                <book_image_height>500</book_image_height>
+                <amazon_product_url>http://www.amazon.com/Highwayman-Longmire-Story-Craig-Johnson/dp/0735220891?tag=thenewyorktim-20</amazon_product_url>
+                <age_group/>
+                <book_review_link/>
+                <first_chapter_link/>
+                <sunday_review_link/>
+                <article_chapter_link/>
+                <isbns>
+                    <isbn>
+                        <isbn10>0735220891</isbn10>
+                        <isbn13>9780735220898</isbn13>
+                    </isbn>
+                </isbns>
+                <buy_links>
+                    <buy_link>
+                        <name>Local Booksellers</name>
+                        <url>http://www.indiebound.org/book/9780735220911?aff=NYT</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Barnes and Noble</name>
+                        <url>http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780735220911</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Amazon</name>
+                        <url>http://www.amazon.com/Highwayman-Longmire-Story-Craig-Johnson/dp/0735220891?tag=thenewyorktim-20</url>
+                    </buy_link>
+                </buy_links>
+            </book>
+            <book>
+                <rank>12</rank>
+                <rank_last_week>8</rank_last_week>
+                <weeks_on_list>9</weeks_on_list>
+                <asterisk>0</asterisk>
+                <dagger>0</dagger>
+                <primary_isbn10>0062414232</primary_isbn10>
+                <primary_isbn13>9780062414236</primary_isbn13>
+                <publisher>Ecco/HarperCollins</publisher>
+                <description>Siblings in a dysfunctional New York family must grapple with a reduced
+                    inheritance.</description>
+                <price>0</price>
+                <title>THE NEST</title>
+                <author>Cynthia D'Aprix Sweeney</author>
+                <contributor>by Cynthia D'Aprix Sweeney</contributor>
+                <contributor_note/>
+                <book_image>https://s1.nyt.com/du/books/images/9780062414236.jpg</book_image>
+                <book_image_width>331</book_image_width>
+                <book_image_height>500</book_image_height>
+                <amazon_product_url>http://www.amazon.com/The-Nest-Cynthia-DAprix-Sweeney-ebook/dp/B010LU8V8Q?tag=thenewyorktim-20</amazon_product_url>
+                <age_group/>
+                <book_review_link/>
+                <first_chapter_link/>
+                <sunday_review_link/>
+                <article_chapter_link/>
+                <isbns>
+                    <isbn>
+                        <isbn10>0062414216</isbn10>
+                        <isbn13>9780062414212</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>0062414232</isbn10>
+                        <isbn13>9780062414236</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>0062441655</isbn10>
+                        <isbn13>9780062441652</isbn13>
+                    </isbn>
+                </isbns>
+                <buy_links>
+                    <buy_link>
+                        <name>Local Booksellers</name>
+                        <url>http://www.indiebound.org/book/9780062414236?aff=NYT</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Barnes and Noble</name>
+                        <url>http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062414236</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Amazon</name>
+                        <url>http://www.amazon.com/The-Nest-Cynthia-DAprix-Sweeney-ebook/dp/B010LU8V8Q?tag=thenewyorktim-20</url>
+                    </buy_link>
+                </buy_links>
+            </book>
+            <book>
+                <rank>13</rank>
+                <rank_last_week>13</rank_last_week>
+                <weeks_on_list>5</weeks_on_list>
+                <asterisk>0</asterisk>
+                <dagger>0</dagger>
+                <primary_isbn10>0698152042</primary_isbn10>
+                <primary_isbn13>9780698152045</primary_isbn13>
+                <publisher>Pamela Dorman/Viking</publisher>
+                <description>After the death of Will Traynor, Louisa Clark joins a grief support
+                    group that may lead her to new love.</description>
+                <price>0</price>
+                <title>AFTER YOU</title>
+                <author>Jojo Moyes</author>
+                <contributor>by Jojo Moyes</contributor>
+                <contributor_note/>
+                <book_image>https://s1.nyt.com/du/books/images/9780698152045.jpg</book_image>
+                <book_image_width>331</book_image_width>
+                <book_image_height>500</book_image_height>
+                <amazon_product_url>http://www.amazon.com/After-You-Novel-Jojo-Moyes/dp/0525426590?tag=thenewyorktim-20</amazon_product_url>
+                <age_group/>
+                <book_review_link/>
+                <first_chapter_link/>
+                <sunday_review_link/>
+                <article_chapter_link/>
+                <isbns>
+                    <isbn>
+                        <isbn10>0525426590</isbn10>
+                        <isbn13>9780525426592</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>0698152042</isbn10>
+                        <isbn13>9780698152045</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>0143108867</isbn10>
+                        <isbn13>9780143108863</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>1432834223</isbn10>
+                        <isbn13>9781432834227</isbn13>
+                    </isbn>
+                </isbns>
+                <buy_links>
+                    <buy_link>
+                        <name>Local Booksellers</name>
+                        <url>http://www.indiebound.org/book/9780698152045?aff=NYT</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Barnes and Noble</name>
+                        <url>http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780698152045</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Amazon</name>
+                        <url>http://www.amazon.com/After-You-Novel-Jojo-Moyes/dp/0525426590?tag=thenewyorktim-20</url>
+                    </buy_link>
+                </buy_links>
+            </book>
+            <book>
+                <rank>14</rank>
+                <rank_last_week>12</rank_last_week>
+                <weeks_on_list>56</weeks_on_list>
+                <asterisk>0</asterisk>
+                <dagger>0</dagger>
+                <primary_isbn10>1466850604</primary_isbn10>
+                <primary_isbn13>9781466850606</primary_isbn13>
+                <publisher>St. Martin's</publisher>
+                <description>Two sisters are separated in World War II France: one in the
+                    countryside, the other in Paris.</description>
+                <price>0</price>
+                <title>THE NIGHTINGALE</title>
+                <author>Kristin Hannah</author>
+                <contributor>by Kristin Hannah</contributor>
+                <contributor_note/>
+                <book_image>https://s1.nyt.com/du/books/images/9781466850606.jpg</book_image>
+                <book_image_width>128</book_image_width>
+                <book_image_height>195</book_image_height>
+                <amazon_product_url>http://www.amazon.com/The-Nightingale-Kristin-Hannah/dp/0312577222?tag=thenewyorktim-20</amazon_product_url>
+                <age_group/>
+                <book_review_link/>
+                <first_chapter_link/>
+                <sunday_review_link/>
+                <article_chapter_link/>
+                <isbns>
+                    <isbn>
+                        <isbn10>0312577222</isbn10>
+                        <isbn13>9780312577223</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>1466850604</isbn10>
+                        <isbn13>9781466850606</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>1628995017</isbn10>
+                        <isbn13>9781628995015</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>1250080401</isbn10>
+                        <isbn13>9781250080400</isbn13>
+                    </isbn>
+                </isbns>
+                <buy_links>
+                    <buy_link>
+                        <name>Local Booksellers</name>
+                        <url>http://www.indiebound.org/book/9781466850606?aff=NYT</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Barnes and Noble</name>
+                        <url>http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781466850606</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Amazon</name>
+                        <url>http://www.amazon.com/The-Nightingale-Kristin-Hannah/dp/0312577222?tag=thenewyorktim-20</url>
+                    </buy_link>
+                </buy_links>
+            </book>
+            <book>
+                <rank>15</rank>
+                <rank_last_week>9</rank_last_week>
+                <weeks_on_list>3</weeks_on_list>
+                <asterisk>0</asterisk>
+                <dagger>0</dagger>
+                <primary_isbn10>0804179670</primary_isbn10>
+                <primary_isbn13>9780804179676</primary_isbn13>
+                <publisher>Delacorte</publisher>
+                <description>Four young women share a Hell’s Kitchen loft.</description>
+                <price>0</price>
+                <title>THE APARTMENT</title>
+                <author>Danielle Steel</author>
+                <contributor>by Danielle Steel</contributor>
+                <contributor_note/>
+                <book_image>https://s1.nyt.com/du/books/images/9780804179676.jpg</book_image>
+                <book_image_width>330</book_image_width>
+                <book_image_height>500</book_image_height>
+                <amazon_product_url>http://www.amazon.com/The-Apartment-Novel-Danielle-Steel-ebook/dp/B017G7JXNE?tag=thenewyorktim-20</amazon_product_url>
+                <age_group/>
+                <book_review_link/>
+                <first_chapter_link/>
+                <sunday_review_link/>
+                <article_chapter_link/>
+                <isbns>
+                    <isbn>
+                        <isbn10>0345531078</isbn10>
+                        <isbn13>9780345531070</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>0804179670</isbn10>
+                        <isbn13>9780804179676</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>0735209995</isbn10>
+                        <isbn13>9780735209992</isbn13>
+                    </isbn>
+                </isbns>
+                <buy_links>
+                    <buy_link>
+                        <name>Local Booksellers</name>
+                        <url>http://www.indiebound.org/book/9780804179676?aff=NYT</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Barnes and Noble</name>
+                        <url>http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780804179676</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Amazon</name>
+                        <url>http://www.amazon.com/The-Apartment-Novel-Danielle-Steel-ebook/dp/B017G7JXNE?tag=thenewyorktim-20</url>
+                    </buy_link>
+                </buy_links>
+            </book>
+            <book>
+                <rank>16</rank>
+                <rank_last_week>0</rank_last_week>
+                <weeks_on_list>0</weeks_on_list>
+                <asterisk>0</asterisk>
+                <dagger>0</dagger>
+                <primary_isbn10>1476738025</primary_isbn10>
+                <primary_isbn13>9781476738024</primary_isbn13>
+                <publisher>Washington Square</publisher>
+                <description>A curmudgeon's gruff exterior masks a generosity of spirit. Originally
+                    published in Sweden in 2014.</description>
+                <price>0</price>
+                <title>A MAN CALLED OVE</title>
+                <author>Fredrik Backman</author>
+                <contributor>by Fredrik Backman</contributor>
+                <contributor_note/>
+                <book_image>https://s1.nyt.com/du/books/images/9781476738024.jpg</book_image>
+                <book_image_width>321</book_image_width>
+                <book_image_height>500</book_image_height>
+                <amazon_product_url>http://www.amazon.com/Man-Called-Ove-Novel/dp/1476738025?tag=thenewyorktim-20</amazon_product_url>
+                <age_group/>
+                <book_review_link/>
+                <first_chapter_link/>
+                <sunday_review_link/>
+                <article_chapter_link/>
+                <isbns>
+                    <isbn>
+                        <isbn10>1476738025</isbn10>
+                        <isbn13>9781476738024</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>1476738017</isbn10>
+                        <isbn13>9781476738017</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>1594139830</isbn10>
+                        <isbn13>9781594139833</isbn13>
+                    </isbn>
+                </isbns>
+                <buy_links>
+                    <buy_link>
+                        <name>Local Booksellers</name>
+                        <url>http://www.indiebound.org/book/9781476738024?aff=NYT</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Barnes and Noble</name>
+                        <url>http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781476738024</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Amazon</name>
+                        <url>http://www.amazon.com/Man-Called-Ove-Novel/dp/1476738025?tag=thenewyorktim-20</url>
+                    </buy_link>
+                </buy_links>
+            </book>
+            <book>
+                <rank>17</rank>
+                <rank_last_week>0</rank_last_week>
+                <weeks_on_list>0</weeks_on_list>
+                <asterisk>0</asterisk>
+                <dagger>0</dagger>
+                <primary_isbn10>0698197003</primary_isbn10>
+                <primary_isbn13>9780698197008</primary_isbn13>
+                <publisher>Berkley</publisher>
+                <description>A woman is haunted by her father’s crimes as she tries to pursue love
+                    and her work as a photographer.</description>
+                <price>0</price>
+                <title>THE OBSESSION</title>
+                <author>Nora Roberts</author>
+                <contributor>by Nora Roberts</contributor>
+                <contributor_note/>
+                <book_image>https://s1.nyt.com/du/books/images/9780399175169.jpg</book_image>
+                <book_image_width>330</book_image_width>
+                <book_image_height>500</book_image_height>
+                <amazon_product_url>http://www.amazon.com/The-Obsession-Nora-Roberts/dp/0399175164?tag=thenewyorktim-20</amazon_product_url>
+                <age_group/>
+                <book_review_link/>
+                <first_chapter_link/>
+                <sunday_review_link/>
+                <article_chapter_link/>
+                <isbns>
+                    <isbn>
+                        <isbn10>0399175164</isbn10>
+                        <isbn13>9780399175169</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>0698197003</isbn10>
+                        <isbn13>9780698197008</isbn13>
+                    </isbn>
+                </isbns>
+                <buy_links>
+                    <buy_link>
+                        <name>Local Booksellers</name>
+                        <url>http://www.indiebound.org/book/9780698197008?aff=NYT</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Barnes and Noble</name>
+                        <url>http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780698197008</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Amazon</name>
+                        <url>http://www.amazon.com/The-Obsession-Nora-Roberts/dp/0399175164?tag=thenewyorktim-20</url>
+                    </buy_link>
+                </buy_links>
+            </book>
+            <book>
+                <rank>18</rank>
+                <rank_last_week>0</rank_last_week>
+                <weeks_on_list>0</weeks_on_list>
+                <asterisk>0</asterisk>
+                <dagger>0</dagger>
+                <primary_isbn10>1466870931</primary_isbn10>
+                <primary_isbn13>9781466870932</primary_isbn13>
+                <publisher>Minotaur</publisher>
+                <description/>
+                <price>0</price>
+                <title>BOAR ISLAND</title>
+                <author>Nevada Barr</author>
+                <contributor>by Nevada Barr</contributor>
+                <contributor_note/>
+                <book_image>https://s1.nyt.com/du/books/images/9781466870932.jpg</book_image>
+                <book_image_width>329</book_image_width>
+                <book_image_height>500</book_image_height>
+                <amazon_product_url>http://www.amazon.com/Boar-Island-Pigeon-Novel-Mysteries-ebook/dp/B0176QQRJS?tag=thenewyorktim-20</amazon_product_url>
+                <age_group/>
+                <book_review_link/>
+                <first_chapter_link/>
+                <sunday_review_link/>
+                <article_chapter_link/>
+                <isbns>
+                    <isbn>
+                        <isbn10>1250064694</isbn10>
+                        <isbn13>9781250064691</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>1250110688</isbn10>
+                        <isbn13>9781250110688</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>1466870931</isbn10>
+                        <isbn13>9781466870932</isbn13>
+                    </isbn>
+                </isbns>
+                <buy_links>
+                    <buy_link>
+                        <name>Local Booksellers</name>
+                        <url>http://www.indiebound.org/book/9781466870932?aff=NYT</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Barnes and Noble</name>
+                        <url>http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9781466870932</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Amazon</name>
+                        <url>http://www.amazon.com/Boar-Island-Pigeon-Novel-Mysteries-ebook/dp/B0176QQRJS?tag=thenewyorktim-20</url>
+                    </buy_link>
+                </buy_links>
+            </book>
+            <book>
+                <rank>19</rank>
+                <rank_last_week>0</rank_last_week>
+                <weeks_on_list>0</weeks_on_list>
+                <asterisk>0</asterisk>
+                <dagger>0</dagger>
+                <primary_isbn10>0062328972</primary_isbn10>
+                <primary_isbn13>9780062328977</primary_isbn13>
+                <publisher>Morrow</publisher>
+                <description/>
+                <price>0</price>
+                <title>BLOOD FLAG</title>
+                <author>Steve Martini</author>
+                <contributor>by Steve Martini</contributor>
+                <contributor_note/>
+                <book_image>https://s1.nyt.com/du/books/images/9780062328977.jpg</book_image>
+                <book_image_width>331</book_image_width>
+                <book_image_height>500</book_image_height>
+                <amazon_product_url>http://www.amazon.com/Blood-Flag-Paul-Madriani-Novel-ebook/dp/B014DTUWJM?tag=thenewyorktim-20</amazon_product_url>
+                <age_group/>
+                <book_review_link/>
+                <first_chapter_link/>
+                <sunday_review_link/>
+                <article_chapter_link/>
+                <isbns>
+                    <isbn>
+                        <isbn10>0062328972</isbn10>
+                        <isbn13>9780062328977</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>0062328964</isbn10>
+                        <isbn13>9780062328960</isbn13>
+                    </isbn>
+                </isbns>
+                <buy_links>
+                    <buy_link>
+                        <name>Local Booksellers</name>
+                        <url>http://www.indiebound.org/book/9780062328977?aff=NYT</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Barnes and Noble</name>
+                        <url>http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780062328977</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Amazon</name>
+                        <url>http://www.amazon.com/Blood-Flag-Paul-Madriani-Novel-ebook/dp/B014DTUWJM?tag=thenewyorktim-20</url>
+                    </buy_link>
+                </buy_links>
+            </book>
+            <book>
+                <rank>20</rank>
+                <rank_last_week>0</rank_last_week>
+                <weeks_on_list>0</weeks_on_list>
+                <asterisk>0</asterisk>
+                <dagger>0</dagger>
+                <primary_isbn10>0399574336</primary_isbn10>
+                <primary_isbn13>9780399574337</primary_isbn13>
+                <publisher>Putnam</publisher>
+                <description>A deal with a fellow inmate, a crime boss, springs Nick Mason from
+                    prison, but he must become an assassin.</description>
+                <price>0</price>
+                <title>THE SECOND LIFE OF NICK MASON</title>
+                <author>Steve Hamilton</author>
+                <contributor>by Steve Hamilton</contributor>
+                <contributor_note/>
+                <book_image>https://s1.nyt.com/du/books/images/9780399574337.jpg</book_image>
+                <book_image_width>331</book_image_width>
+                <book_image_height>500</book_image_height>
+                <amazon_product_url>http://www.amazon.com/Second-Life-Nick-Mason-Novel-ebook/dp/B014EOUONU?tag=thenewyorktim-20</amazon_product_url>
+                <age_group/>
+                <book_review_link/>
+                <first_chapter_link/>
+                <sunday_review_link/>
+                <article_chapter_link/>
+                <isbns>
+                    <isbn>
+                        <isbn10>0399574328</isbn10>
+                        <isbn13>9780399574320</isbn13>
+                    </isbn>
+                    <isbn>
+                        <isbn10>0399574336</isbn10>
+                        <isbn13>9780399574337</isbn13>
+                    </isbn>
+                </isbns>
+                <buy_links>
+                    <buy_link>
+                        <name>Local Booksellers</name>
+                        <url>http://www.indiebound.org/book/9780399574337?aff=NYT</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Barnes and Noble</name>
+                        <url>http://www.anrdoezrs.net/click-7990613-11819508?url=http%3A%2F%2Fwww.barnesandnoble.com%2Fw%2F%3Fean%3D9780399574337</url>
+                    </buy_link>
+                    <buy_link>
+                        <name>Amazon</name>
+                        <url>http://www.amazon.com/Second-Life-Nick-Mason-Novel-ebook/dp/B014EOUONU?tag=thenewyorktim-20</url>
+                    </buy_link>
+                </buy_links>
+            </book>
+        </books>
+        <corrections/>
+    </results>
+</result_set>
