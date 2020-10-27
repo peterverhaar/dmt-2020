@@ -18,7 +18,6 @@
 
       <xsl:sort select="author/lastName"/>
 
-      <!-- <xsl:if test="(language = 'English') and (imprint/date &gt;= '2000') and (language != 'French') and (imprint/place = 'New York')"> -->
        <li>
 
         <xsl:value-of select="author/lastName"/>
@@ -48,7 +47,7 @@
         <xsl:text>.</xsl:text>
 
        </li>
-      <!-- </xsl:if> -->
+
 
      </xsl:for-each>
 
