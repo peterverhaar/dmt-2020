@@ -32,7 +32,7 @@
 
     <ul>
 
-     <xsl:for-each select="body/letter[year &lt;= '1900']">
+     <xsl:for-each select="body/letter[year &lt;= 1900]">
 
       <xsl:sort select="author"/>
 
