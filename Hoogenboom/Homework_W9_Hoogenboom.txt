@@ -1,0 +1,50 @@
+ENTITY: LIBRARY
+ATTRIBUTES:
+-L-ID
+-name
+-place (FK, connected to table CITY)
+-books (FK, connected to table BOOK)
+-visitors (FK, connected to table VISITORS)
+
+ENTITY: BOOK
+ATTRIBUTES:
+-B-ID
+-title
+-author (FK, connected to table AUTHOR)
+-publisher (FK, connected to table PUBLISHER)
+-date
+-place (FK, connected to table CITY)
+-library (FK, connected to table by LIBRARY)
+-borrowed_by (FK, connected to table VISITOR)
+-date_borrowed
+-date_returned
+
+ENTITY: AUTHOR
+ATTRIBUTES: 
+-A-ID
+-first_name
+-last_name
+-year_of_birth
+-year_of_death
+-place_of_birth (FK, connected to table CITY)
+-place_of_death (FK, connected to table CITY)
+
+ENTITY: PUBLISHER
+ATTRIBUTES: 
+-P-ID
+-name
+
+ENTITY: VISITOR
+ATTRIBUTES:
+-V-ID
+-first_name
+-last_name
+-year_of_birth
+-year_of_death
+-place_of_birth (FK, connected to table CITY)
+-place_of_death (FK, connected to table CITY)
+
+ENTITY: CITY
+ATTRIBUTES:
+-C-ID
+-description
