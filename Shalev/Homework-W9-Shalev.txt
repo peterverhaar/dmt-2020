@@ -1,0 +1,49 @@
+ENTITY: [BOOK]
+B_ID
+ATTRIBUTES:
+[Title] 
+[Author] (FK, connected to table [AUTHOR])
+[Publisher](FK, connected to table [PUBLISHER])
+[Date_of_publication]
+
+ENTITY: [PUBLISHER]
+P_ID
+ATTRIBUTES:
+[Name] 
+[Place] (FK, connected to table [CITY])
+
+
+ENTITY: [AUTHOR]
+A_ID
+ATTRIBUTES:
+[First_name]
+[Last_name]
+[Place_of_birth] (FK, connected to table [CITY])
+[Place_of_death] (FK, connected to table [CITY])
+[Date_of_birth]
+[Date_of_death]
+
+ENTITY: [CITY]
+C_ID
+ATTRIBUTES:
+[Name] 
+
+
+ENTITY: [VISITOR]
+V_ID
+ATTRIBUTES:
+[Honorific]
+[First_name]
+[Last_name]
+[Place_of_birth] (FK, connected to table [CITY])
+[Place_of_death] (FK, connected to table [CITY])
+[Date_of_birth]
+[Date_of_death]
+
+ENTITY: [LOAN]
+L_ID
+ATTRIBUTES:
+[Name_of_loaner] (FK, connected to table [VISITOR])
+[Item_loaned] (FK, connected to table [BOOK])
+[Date_of_loan]
+[Date_of_return]
