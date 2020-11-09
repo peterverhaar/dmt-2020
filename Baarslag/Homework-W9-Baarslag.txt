@@ -1,0 +1,33 @@
+ENTITY: [Book]
+ATTRIBUTES:
+[Title] 
+[Author] (FK)
+[Publisher] (FK)
+[Year of publication]
+[Place of publication]
+
+ENTITY: [Author]
+ATTRIBUTES:
+[Last Name]
+[First Name]
+
+ENTITY: Publisher
+ATTRIBUTES:
+[Name]
+[place]
+
+ENTITY: [Loan]
+ATTRIBUTES:
+[Visitor] (FK)
+[Book] (FK)
+[Borrowed]
+[Returned]
+
+ENTITY: [Visitor]
+ATTRIBUTES:
+[last name]
+[first name]
+[place of birth]
+[place of death]
+[date of birth]
+[date of death]
