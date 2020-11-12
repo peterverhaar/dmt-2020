@@ -29,6 +29,7 @@ ATTRIBUTES
 id_book (PK)
 Book_Title
 Date_of_Publication
+Author (FK, connected to table PERSON)
 Publisher (FK, connected to table PUBLISHER)
 
 ENTITY: PUBLISHER
