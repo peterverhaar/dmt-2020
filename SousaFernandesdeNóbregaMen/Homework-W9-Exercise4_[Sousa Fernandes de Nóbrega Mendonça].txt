@@ -1,0 +1,65 @@
+ENTITY: Loan
+ATTIBUTES:
+LOAN_ID (PK)
+date_borrowed
+date_returned
+book (FK, connect to Book table)
+visitor (FK, connect to Visitor table)
+library (FK, connect to Library table)
+
+
+ENTITY: Book
+ATTRIBUTES:
+BOOK_ID (PK)
+title
+date
+publisher (FK, connect to Publisher table)
+author (FK, connect to Author table)
+loan (FK, connect to Loan table)
+
+
+ENTITY: author
+ATTRIBUTES:
+AUTHOR_ID (PK)
+first_name
+last_name
+date_of_birth
+date_of_death
+
+
+ENTITY: Visitor
+ATTRIBUTES:
+VISITOR_ID (PK)
+visitor_name
+place (FK, connect to Place table)
+
+
+ENTITY: Place
+ATTRIBUTES:
+PLACE_ID (PK)
+place_of_birth
+place_of_death
+
+
+ENTITY: Date
+ATTRIBUTES:
+DATE_ID (PK)
+date_of_birth
+date_of_death
+
+
+ENTITY: Publisher
+ATTRIBUTES:
+PUB_ID (PK)
+name
+place
+
+
+ENTITY: Library
+ATTRIBUTES:
+lIB_ID (PK)
+name
+place
+
+
+
