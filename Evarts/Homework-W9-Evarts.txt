@@ -1,0 +1,37 @@
+ENTITY: Book B_ID
+ATTRIBUTES:
+Title (PK)
+Author (FK connected to table: Author)
+Publisher
+Publication date
+Publicaction place
+
+
+ENTITY: Author A_ID
+ATTRIBUTES:
+Author Last Name (PK)
+Author First Name
+Birth Place
+Death Place
+Birth Date
+Death Date
+
+
+ENTITY: Loan Info LI_ID
+ATTRIBUTES:
+Borrow Date (PK)
+Return Date
+Book (FK connected to table: Book)
+Author (FK connected to table: Author)
+Visitor (FK connected to table: Visitor)
+
+
+ENTITY: Visitor V_ID
+ATTRIBUTES:
+Visitor First Name
+Visitor Last Name (PK)
+Visitor Title
+Birth Date
+Death Date
+Birth Place
+Death Place
