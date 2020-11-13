@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://bookandbyte.universiteitleiden.nl/schema/tei_all.rng"
 schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="xxxxx">
-    <!-- replace xxxxxxxxxx with file id -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Q23550519430908">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Letter from Vita Sakville-West to Leonard Woolf, 4th April 1946: A
+                <title>Letter from Vita Sakville-West to Miss Cooper, 8th September 1943: A
                     machine-readable transcription</title>
                 <author>
                     Vita Sakville-West
@@ -36,7 +35,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                     <addrLine>2300 RA Leiden</addrLine>
                 </address>
                 <idno>
-                    <!-- file ID -->
+                    Q23550519430908
                 </idno>
                 <availability>
                     <p> Publicly accessible </p>
@@ -47,14 +46,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 
             <sourceDesc>
                 <bibl>
-                    <title> Letter from Vita Sakville-West to Leonard Woolf,
-                            4th April 1946
+                    <title> Letter from Vita Sackville-West to Miss Cooper,
+                      sent on 8th September 1943
                     </title>
-                    <author>
-                        Vita Sakville-West
+                    <author key="Q235505">
+                        Vita Sackville-West
                     </author>
                     <idno type="callNo">
-                        <!-- library callnumber --> ms 2750/416/66
+                        MS 2750 416 66
                     </idno>
                 </bibl>
             </sourceDesc>
@@ -71,7 +70,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
         </encodingDesc>
         <profileDesc>
             <langUsage>
-                <language ident="dut">Dutch</language>
+                <language ident="eng">English</language>
             </langUsage>
             <textClass>
                 <keywords scheme="http://classificationweb.net">
@@ -82,7 +81,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <keywords scheme="http://www.bookstudies.leidenuniv.nl/">
                     <term>nonfiction</term>
                     <term>prose</term>
-                    <term>masculine</term>
+                    <term>feminine</term>
                 </keywords>
             </textClass>
         </profileDesc>
@@ -93,9 +92,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
         <front>
             <div type="summary">
                 <p>
-                    Vita tells Leonard about a rumor the heard regarging a
-                    change in the management of the Press. She asks if some
-                    of her book can be re-printed. She asks if the rumor is true.
+                    Vita says she does not wish to receive a fee from Thomas Nelson
+                    and Sons for the use of an extract of her work. The actual writer
+                    of the letter is not inteeligible.
                 </p>
             </div>
         </front>
@@ -104,62 +103,49 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
                 <opener>
                     <address>
                         <addrLine>
-                            <persName>
-                              <choice>
-                              <orig>Leonard</orig><reg>Leonard Woolf</reg>
-                              </choice>
-                            </persName>
+                            <persName>Miss Cooper</persName>
                         </addrLine>
                     </address>
                     <salute>
-                        My dear <choice>
-                        <orig>Leonard</orig>
-                        <reg>Leonard Woolf</reg>
-                        </choice>
+                        Dear Miss Cooper,
+                        <note><p>Unfortunately I was not able to find an explicit reference of
+                        "Miss Cooper" in relation to Vita Sackville-West, Thomas Nelson and Sons or Harold Nicolson.
+                        She might be the wife of <persName key="Q335324">
+                        Duff Cooper</persName>, employer of
+                        <persName key="Q332956">Harold Nicolson</persName>, Vita Sackville-West's
+                        husband, around the time when this letter was written.
+                        If that is the case, "Miss Cooper" could refer to
+                        <persName key="Q128576">Lady Diana Cooper</persName>. However, because
+                        of the title of 'Miss', this may not be the case.
+                        </p></note>
                     </salute>
                 </opener>
                 <p>
-                    I have just received the enclosed letter <lb/>
-                    which speaks for itself. I don't know if there <lb/>
-                    is any truth in the rumor that the <orgName> Press </orgName>
-                    <note><p> The Hogarth Press </p></note> is <lb/>
-                    changing hands, although I do not know that John <lb/>
-                    Lehmann has left it. I should of course be glad <lb/>
-                    if certain of my books could be reprintes, namely <lb/>
-                    Pepita, <choice> <orig> the two books about Persia </orig>
-                    <reg> <title> Twelve Days: an account of a journey across
-                    the Bakhtiari Mountains of South-western Persia </title>
-                    <title> Passenger to Teheran </title> </reg> </choice>,
-                    <title> The Edwardians </title> <lb/>
-                    and <title> All Passion Spent </title>.
-                    Could you let me know <lb/>
-                    what the position is and if there is no truth <lb/>
-                    in the story that you are giving up the Press, <lb/>
-                    please forgive me for having written. <lb/>
+                  Miss Sackville-West has asked me to write to<lb/>
+                  you and to say that she is quite willing that <orgName key="Q2648991">Thomas Nelson<lb/>
+                  and Sons</orgName> should take the extract from <title key="Q3824215">The Edwardians</title> which<lb/>
+                  they mention. She does not wish for a fee.<lb/>
                 </p>
                 <closer>
                   <dateline>
                       <placeName>
-                        Sissinghurst Castle, Kent
+                        4. King's Bench Walk, Temple, E.C.4.  Central 7964
                       </placeName>
-                      <date when="1946-04-04">
-                          4th April 1946
+                      <date when="1943-09-08">
+                          8th September 1943
                       </date>
                   </dateline>
                   <address>
                       <addrLine>
-                          <persName> Vita Sakville-West </persName>
-                      </addrLine>
-                      <addrLine>
-                          Sissinghurst Castle, Kent
+                          <persName>The Hon. Harold Nicolson, C.M.G., M.P.,</persName>
                       </addrLine>
                   </address>
                     <salute>
-                        Yours ever,
+                        Yours sincerely,
                     </salute>
-                    <signed> Vita </signed>
+                    <note><p>Unfortunately the signature is unintelligible.</p></note>
                     <address>
-                      <addrLine> {Sissinghurst Castle, Kent} </addrLine>
+                      <addrLine> {4. King's Bench Walk, Temple, E.C.4.  Central 7964} </addrLine>
                     </address>
                 </closer>
             </div>
