@@ -1,59 +1,52 @@
-Exercise 4
+SQL Exercise 4
 
-Explanation of Choices
-
-Every attribute that is a foreign key (FK) takes a value (PK or Code) from another entity. Because numerous entities require values pertaining to geographic location (place of birth, location of institution, etc.), the "City" entity has been created and applied as a foreign key attribute to eliminate redundancy. Also, "Country" has not been applied as an attribute in entities that contain "City" as an attribute, because the "City" entity already contains a "Country" attribute.
-
----
+ENTITY: Loan
+ATTRIBUTES:
+L_ID (PK)
+Date_of_loan
+Date_of_return
+Book (FK) [Book]
+Borrowed_by (FK) [Person]
+Library (FK) [Library]
 
 ENTITY: Publisher
 ATTRIBUTES:
-P_ID(PK)
-Name
-City(FK)[City]
+P_ID (PK)
+Name_of_publisher
+City (FK) [City]
 
-ENTITY: Author
+ENTITY: Person
 ATTRIBUTES:
-A_ID(PK)
+P_ID (PK)
 Name_last
 Name_first
 Date_of_birth
 Date_of_death
-Place_of_birth(FK)[City]
-Place_of_death(FK)[City]
+Place_of_birth (FK) [City]
+Place_of_death (FK) [City]
 
 ENTITY: Book
 ATTRIBUTES:
-B_ID(PK)
-Title
+B_ID (PK)
+Title_of_book
 Date_of_publication
-Author(FK)[Author]
-Publisher(FK)[Publisher]
-Library(FK)[Library]
-
-ENTITY: Visitor
-ATTRIBUTES:
-V_ID(PK)
-Name_last
-Name_first
-Date_of_birth
-Date_of_death
-Place_of_birth(FK)[City]
-Place_of_death(FK)[City]
+Author (FK) [Person]
+Publisher (FK) [Publisher]
+Library (FK) [Library]
 
 ENTITY: Library
 ATTRIBUTES:
-L_ID(PK)
-Name
-City(FK)[City]
+L_ID (PK)
+Name_of_library
+City (FK) [City]
 
 ENTITY: City
 ATTRIBUTES:
 City_code
-Name
-Country(FK)[Country]
+Name_of_city
+Country (FK) [Country]
 
 ENTITY: Country
 ATTRIBUTES:
 Country_code
-Name
+Name_of_country
