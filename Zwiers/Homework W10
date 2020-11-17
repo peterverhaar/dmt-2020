@@ -1,0 +1,27 @@
+15 select LAST_NAME, FIRST_NAME, NAME
+from AUTHOR, COUNTRY
+where NATIONALITY = COUNTRY_ID
+
+16 select TITLE, YEAR, GENRE.GENRE
+from BOOK, GENRE
+where BOOK.GENRE = GENRE_ID
+
+17 select LAST_NAME, FIRST_NAME, COUNT(*)
+from AUTHOR, BOOK
+where AUTHOR = AUTHOR_ID
+group by AUTHOR 
+having COUNT(*) >1
+
+18 select NAME, COUNT(*)
+from PUBLISHER, BOOK
+where PUBLISHER = PUBL_ID
+group by PUBLISHER
+having COUNT(*) >3
+
+19 select TITLE, GENRE.GENRE
+from BOOK, GENRE
+where BOOK.GENRE = GENRE_ID and GENRE.GENRE = 'Popular Science'
+
+20 select AVG(SOLD)
+from BOOK, AUTHOR
+where AUTHOR = AUTHOR_ID and LAST_NAME = 'Rowling'
