@@ -1,0 +1,95 @@
+ExerciseS 07-20
+
+07. The year of the oldest title in the database
+
+SELECT MIN(YEAR)
+FROM BOOK;
+
+08. The number of unique countries in the table AUTHOR
+
+SELECT COUNT(DISTINCT NATIONALITY)
+FROM AUTHOR;
+
+09. The average number of copies sold for all the books
+
+SELECT AVG(SOLD)
+FROM BOOK;
+
+10. For each genre, show the average number of sales
+
+SELECT GENRE, AVG(SOLD)
+FROM BOOK
+GROUP BY GENRE
+
+11. For each genre, show the maximum number of books that have been sold
+
+SELECT GENRE, MAX(SOLD)
+FROM BOOK
+GROUP BY GENRE
+
+12. For each author, show the total number of sales
+
+SELECT AUTHOR, SUM(SOLD)
+FROM BOOK
+GROUP BY AUTHOR
+
+13. For each year, show the total number of bestsellers
+
+SELECT YEAR, COUNT(*)
+FROM BOOK
+GROUP BY YEAR
+
+14. All the countries which have produced more than two best-selling authors
+
+SELECT NATIONALITY, COUNT(*)
+FROM AUTHOR
+GROUP BY NATIONALITY
+HAVING COUNT(*)>=2
+
+15. The first name and the last name of all the authors, together with the full name of the countries in which these authors were born.
+
+SELECT LAST_NAME, COUNTRY.NAME
+FROM AUTHOR
+LEFT JOIN COUNTRY
+ON NATIONALITY = COUNTRY_ID
+
+16. The title and the year of all the books, together with a full description of the genres (not only the codes).
+
+SELECT TITLE, YEAR, GENRE.GENRE
+FROM BOOK
+LEFT JOIN GENRE
+ON BOOK.GENRE = GENRE_ID
+
+17. Which authors have written more than one book in the database?
+
+SELECT FIRST_NAME, LAST_NAME, COUNT(TITLE)
+FROM BOOK
+LEFT JOIN AUTHOR
+ON BOOK.AUTHOR = AUTHOR_ID
+GROUP BY AUTHOR.LAST_NAME
+HAVING COUNT(TITLE)>1
+
+18. Which publishers are responsible for more than three bestsellers?
+
+SELECT COUNT(TITLE), PUBLISHER.NAME
+FROM BOOK
+LEFT JOIN PUBLISHER
+ON PUBLISHER = PUBL_ID
+GROUP BY PUBLISHER.NAME
+HAVING COUNT(TITLE)>3
+
+19. What are the best-selling books in the genre "Popular Science"?
+
+SELECT TITLE, GENRE.GENRE
+FROM BOOK
+LEFT JOIN GENRE
+ON BOOK.GENRE = GENRE_ID
+WHERE GENRE.GENRE = "Popular Science"
+
+20. What is the average number of sales of a book written by J.K. Rowling?
+
+SELECT AVG(SOLD)
+FROM BOOK
+LEFT JOIN AUTHOR
+ON BOOK.AUTHOR = AUTHOR_ID
+WHERE LAST_NAME = "Rowling"
