@@ -1,4 +1,4 @@
-ExerciseS 07-20
+Exercises 07-20
 
 07. The year of the oldest title in the database
 
