@@ -7,17 +7,18 @@ WHERE BOOK.GENRE = GENRE.GENRE_ID
 
 b.	For each genre, show the maximum number of books that have been sold
 
-SELECT GENRE.GENRE, MAX(*)
-FROM BOOK, GENRE
-WHERE BOOK.GENRE = GENRE.GENRE_ID
+SELECT CONCAT( FIRST_NAME ,  ' ' , LAST_NAME)  AS 'Author', SUM(SOLD) AS 'Total number of sales' 
+FROM BOOK B , AUTHOR 
+WHERE B.AUTHOR = AUTHOR_ID
+GROUP BY B.AUTHOR
+ORDER BY SUM(SOLD) DESC
 
 c.	For each author, show the total number of sales
 
-
-SELECT FIRST_NAME + ‘’ + LAST_NAME  , SUM( SOLD )
-FROM BOOK, AUTHOR
-WHERE AUTHOR = AUTHOR_ID
-GROUP BY AUTHOR
+SELECT CONCAT( FIRST_NAME , ' ' , LAST_NAME) , SUM(SOLD)
+FROM BOOK B , AUTHOR 
+WHERE B.AUTHOR = AUTHOR_ID
+GROUP BY B.AUTHOR
 
 d.	For each year, show the total number of bestsellers
 
