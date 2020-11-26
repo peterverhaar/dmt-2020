@@ -1,0 +1,95 @@
+a.	The last name, the first name and the year of birth of all the persons in the table CREATOR. Sort the rows by year of birth. The most recent year should appear first.
+
+SELECT NAME_LAST, NAME_FIRST, YEAR_OF_BIRTH
+FROM CREATOR
+ORDER BY YEAR_OF BIRTH DESC
+
+b.	All the columns in the table CITY, and sort the rows alphabetically, by name of the city.
+
+SELECT *
+FROM CITY
+ORDER BY NAME
+
+c.	The treasures that were produced after 1800. Display only the title and the year
+
+SELECT TITLE, YEAR
+FROM TREASURE
+WHERE YEAR > 1800
+
+d.	The creators whose first name starts with the letter "W"
+
+SELECT NAME_LAST, NAME_FIRST 
+FROM CREATOR
+WHERE NAME_FIRST LIKE ‘%W’
+
+e.	The distinct subject codes in the table TREASURE, and sort the result alphabetically.
+
+SELECT DISTINCT SUBJECT
+FROM TREASURE
+ORDER BY SUBJECT
+
+f.	The year of the oldest treasure in the database.
+
+SELECT MIN(YEAR)
+FROM TREASURE
+
+g.	The number of countries in the table CREATOR.
+
+SELECT COUNT( DISTINCT COUNTRY_BORN )
+FROM CREATOR
+
+h.	The most recent year of death in the table CREATOR.
+
+SELECT MAX(YEAR_OF_DEATH)
+FROM CREATOR
+
+i.	The oldest treasure from each library. For this query, you only need to work with the identifiers of the libraries and not with their full names.
+
+SELECT LIBRARY, MIN(YEAR)
+FROM TREASURE
+GROUP BY LIBRARY
+
+j.	The number of persons for each country in the table CREATOR.
+
+SELECT COUNTRY_BORN , COUNT(*)
+FROM CREATOR
+GROUP BY COUNRY_BORN
+
+k.	Those libraries that are represented by two or more treasures.
+
+SELECT LIBRARY , COUNT(*)
+FROM TREASURE
+GROUP BY LIBRARY
+HAVONG COUNT(*) > 2
+
+l.	Those subjects that have been assigned to two or more treasures in the database.
+
+SELECT SUBJECT , COUNT(*)
+FROM TREASURE
+GROUP BY SUBJECT
+HAVING COUNT(*) >= 2
+
+m.	The title, year, and provide a full description of the subject code of all the treasures in the database.
+
+SELECT TITLE, YEAR, SUBJECT.SUBJECT
+FROM TREASURE T, SUBJECT S
+WHERE T.SUBJECT = S.CODE
+
+n.	The names of all the libraries and the names of the cities in which they are located.
+
+SELECT L.NAME , C.NAME
+FROM LIBRARY L, CITY C
+WHERE L.CITY = C.CITY_CODE
+
+o.	A list with all names of all cities and the full names of the countries in which they are situated.
+
+SELECT CITY.NAME , COUNTRY.NAME
+FROM CITY, COUNTRY
+WHERE COUNTRY = COUNTRY_CODE
+
+p.	The title, year, and a full description of the subject code of all treasures, and the full names of their creators. Sort the list alphabetically by the last name of the creator.
+
+SELECT TITLE, YEAR S,NAME, NAME_FIRST, NAME_LAST
+FROM TREASURE T, SUBJECT S, CREATOR C
+WHERE T.SUBJECT = S.CODE
+AND T.CREATOR = CREATOR_ID
