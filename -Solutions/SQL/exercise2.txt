@@ -1,0 +1,26 @@
+a.	For each genre, show the average number of sales
+
+SELECT GENRE.GENRE, AVG(*)
+FROM BOOK, GENRE
+WHERE BOOK.GENRE = GENRE.GENRE_ID
+
+
+b.	For each genre, show the maximum number of books that have been sold
+
+SELECT GENRE.GENRE, MAX(*)
+FROM BOOK, GENRE
+WHERE BOOK.GENRE = GENRE.GENRE_ID
+
+c.	For each author, show the total number of sales
+
+
+SELECT FIRST_NAME + ‘’ + LAST_NAME  , SUM( SOLD )
+FROM BOOK, AUTHOR
+WHERE AUTHOR = AUTHOR_ID
+GROUP BY AUTHOR
+
+d.	For each year, show the total number of bestsellers
+
+SELECT YEAR , COUNT( * )
+FROM BOOK
+GROUP BY YEAR
