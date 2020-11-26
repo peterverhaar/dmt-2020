@@ -1,67 +1,123 @@
+Question 1
 
-1
+1.	The last name and the first name of all the persons in the table AUTHOR
 
-SELECT
-LAST_NAME , FIRST_NAME
-FROM AUTHOR ;
+SELECT LAST_NAME , FIRST_NAME
+FROM AUTHOR
 
-2.
+2.	All the columns in the table COUNTRY. Sort the rows alphabetically, by name of the country.
+
 SELECT *
 FROM COUNTRY
-ORDER BY NAME ;
+ORDER BY NAME
 
-3.
+3.	All books published in or before the year 2000.
+
 SELECT *
 FROM BOOK
-WHERE YEAR < 2000
+WHERE YEAR <= 2000
 
-4.
-SELECT FIRST_NAME , LAST_NAME
+4.	Authors whose last name starts with the letter "B"
+
+SELECT *
 FROM AUTHOR
-WHERE LAST_NAME LIKE 'B%'
+WHERE LAST_NAME LIKE 'W%'
 
-5.
+5.	All the genres, in alphabetic order
+
 SELECT *
 FROM GENRE
 ORDER BY GENRE
 
-6.
-SELECT DINSTINCT PUBLISHER
+6.	A list of the codes that have been created for the publishers in the table BOOK, without duplicates.
+
+SELECT DISTINCT PUBLISHER
 FROM BOOK
 
-7.
-SELECT MIN(YEAR)
+7.	The year of the oldest title in the database.
+
+SELECT MIN(*)
 FROM BOOK
 
-8.
-SELECT COUNT(DISTINCT NATIONALITY)
+8.	The number of unique countries in the table AUTHOR
+
+SELECT COUNT( DISTINCT NATIONALITY )
 FROM AUTHOR
 
-9.
+9.	The average number of copies sold for all the books
+
 SELECT AVG(SOLD)
 FROM BOOK
 
-10.
-SELECT AVG(SOLD)
+10.	For each genre, show the average number of sales
+
+SELECT GENRE , AVG( SOLD )
 FROM BOOK
 GROUP BY GENRE
 
-11.
-SELECT AUTHOR , MAX (SOLD)
+11.	For each genre, show the maximum number of books that have been sold
+
+SELECT GENRE , MAX( SOLD )
 FROM BOOK
 GROUP BY GENRE
 
-12.
-SELECT AUTHOR , SUM(SOLD)
+12.	For each author, show the total number of sales
+
+SELECT AUTHOR , SUM( SOLD )
 FROM BOOK
 GROUP BY AUTHOR
 
-13.
+13.	For each year, show the total number of bestsellers
+
 SELECT YEAR , COUNT(*)
 FROM BOOK
 GROUP BY YEAR
-14.
-SELECT NATIONALITY, COUNT(*)
-FROM AUTHOR
+
+14.	All the countries which have produced more than two best-selling authors
+
+GROUP BY NATIONALITY , COUNT(*)
+FROM PERSON
 GROUP BY NATIONALITY
 HAVING COUNT(*) > 2
+
+15.	The first name and the last name of all the authors, together with the full name of the countries in which these authors were born.
+
+SELECT LAST_NAME , FIRST_NAME , NAME
+FROM PERSON , COUNTRY
+WHERE NATIONALITY = COUNTRY_ID
+
+16.	The title and the year of all the books, together with a full description of the genres (not only the codes).
+
+SELECT B.TITLE , G.GENRE
+FROM BOOK B , GENRE G
+WHERE B.GENRE = G.GENRE_ID
+
+17.	Which authors have written more than one beststeller?
+
+SELECT AUTHOR, LAST_NAME , FIRST_NAME , COUNT(*)
+FROM PERSON, BOOK
+WHERE AUTHOR = AUTHOR_ID
+GROUP BY AUTHOR
+HAVING COUNT(*) > 1
+
+18.	Which publishers are responsible for more than three bestsellers?
+
+SELECT NAME , COUNT(*)
+FROM BOOK, PUBLISHER
+WHERE PUBLISHER = PUBL_ID
+GROUP BY NAME
+HAVING COUNT(*) > 3
+
+19.	What are the best-selling books in the genre "Popular Science"?
+
+SELECT TITLE
+FROM BOOK B, GENRE G
+WHERE B.GENRE = G.GENRE
+AND G.GENRE = 'Popular Science'
+
+20.	What is the average number of sales of a book written by J.K. Rowling?
+
+SELECT LAST_NAME , FIRST_NAME , AVG( SOLD )
+FROM BOOK, AUTHOR
+WHERE AUTHOR = AUTHOR_ID
+WHERE NAME_LAST = 'Rowling' and NAME_FIRST = 'J.K.'
