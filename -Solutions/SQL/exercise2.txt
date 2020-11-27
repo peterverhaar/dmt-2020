@@ -1,11 +1,21 @@
 a.	For each genre, show the average number of sales
 
-SELECT GENRE.GENRE, AVG(*)
-FROM BOOK, GENRE
-WHERE BOOK.GENRE = GENRE.GENRE_ID
+SELECT G.GENRE , AVG(SOLD)
+FROM BOOK B , GENRE G
+WHERE B.GENRE = G.GENRE_ID
+GROUP BY G.GENRE
+ORDER BY AVG(SOLD) DESC
 
 
-b.	For each genre, show the maximum number of books that have been sold
+b.	For each genre, show the number of sales of the highest selling title
+
+SELECT G.GENRE , MAX(SOLD)
+FROM BOOK B , GENRE G
+WHERE B.GENRE = G.GENRE_ID
+GROUP BY G.GENRE
+ORDER BY MAX(SOLD)
+
+c.	For each author, show the total number of sales
 
 SELECT CONCAT( FIRST_NAME ,  ' ' , LAST_NAME)  AS 'Author', SUM(SOLD) AS 'Total number of sales' 
 FROM BOOK B , AUTHOR 
@@ -13,15 +23,9 @@ WHERE B.AUTHOR = AUTHOR_ID
 GROUP BY B.AUTHOR
 ORDER BY SUM(SOLD) DESC
 
-c.	For each author, show the total number of sales
-
-SELECT CONCAT( FIRST_NAME , ' ' , LAST_NAME) , SUM(SOLD)
-FROM BOOK B , AUTHOR 
-WHERE B.AUTHOR = AUTHOR_ID
-GROUP BY B.AUTHOR
-
 d.	For each year, show the total number of bestsellers
 
 SELECT YEAR , COUNT( * )
 FROM BOOK
 GROUP BY YEAR
+ORDER BY YEAR
