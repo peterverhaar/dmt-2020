@@ -1,0 +1,13 @@
+Letter: Q23550519300901
+The names of the sender and the recipient have been entered correctly.
+The date has been entered correctly. 
+The location of the sender and the location of the recipient have been entered correctly.
+The persons mentioned are also correct, although George Doran is mentioned twice in the table (I don't know if that's how it's supposed to be; he's mentioned only once in the letter).
+Also, Doubleday Doran comes up in the table, but this is not a person but the name of a publishing company. 
+
+Letter: Q70393519300531
+The names of the sender and the recipient have been entered correctly.
+The date has also been entered correctly. 
+The location of the sender and the location of the recipient have been entered correctly. 
+All the persons mentioned in the letter are also present in this table. However, three organisations also turn up in this table, namely R & R Clark, Spalding & Hodge, and Ship Binding Works. 
+(Perhaps that's how it should be, and the name 'MENTIONS_PERSONS' is simply throwing me off).
