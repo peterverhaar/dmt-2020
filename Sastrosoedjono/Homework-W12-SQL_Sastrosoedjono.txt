@@ -1,0 +1,16 @@
+Letter ID: Q162336219340906
+The Hogarth Press to Birmingham Repertory Theatre, 6 September 1934. Birmingham.
+-	The names of the sender and the recipient have been entered correctly.
+-	The date has been entered correctly.
+-	The location of the sender was missing in the letter; the location of the recipient have been entered correctly. 
+-	The name that is referred to in this letter has been captured appropriately. 
+
+Letter ID: Q70393519300314
+Leonard Woolf to Vita Sackville-West, 14 March 1930. 4 King’s Bench Walk EC4.
+-	The names of the sender and the recipient have been entered correctly. 
+-	The date has been entered correctly as well. 
+-	The location of the sender was missing in the letter; the location of the recipient have been entered correctly.
+-	There is a ‘Hugh’ mentioned in this letter missing in the Mentions table. That’s probably because I didn’t add a WikiID, as I couldn’t find out who this was. Only the first name is mentioned and nothing came up after using a full text search in the Wikidata/Wikipedia pages of Vita Sackville-West and Leonard Woolf. However, I looked at the letter again today and just tried googling ‘Leonard Woolf Hugh’ (which I should have done in the first place) and came across a certain Hugh Walpole who was a writer and a friend of Virginia Woolf and so probably also acquainted with Leonard and Vita. I couldn’t find any evidence that they were more than colleagues though (unlike Hugh’s friendship with Leonard’s wife), so it’s quite notable that Leonard would mention him in their letter. He could also be a different Hugh, in that case I unfortunately wouldn’t know exactly who he might be.
+There is another person mentioned, the Secretary of the Book Society, but no name was given in the letter, hence no WikiID and so, not present in the table/database. 
+
+
