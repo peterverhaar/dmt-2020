@@ -1,0 +1,11 @@
+Exercise 3
+
+The names of the sender and the recipient, as well as the date are correctly in the table, for both letters.
+
+The address of the recipient from letter Q126348319391017 is not in the same place as it is on google maps. When I run it through SQL 52 Tavistock is at the upper right corner of Tavistock park, on google maps it is on the right lower corner.
+The address of the sender is marked in Harmondsworth, which is the only thing we know about the address, so this seems correct from the information we have. I however googled the old address of Penguin Books and their address used to be on Bath Road. That is not the street which is currently marked.
+
+For letter Q23550519290430 the place of the sender does also not seem correct. It is now marked somewhere in Sevenoaks but I think it should be in Sevenoaks Weald, on Long Barn Road. As this letter was sent to 52 Tavistock (Leonard Woolf) the marked place of the recipient might not seem correct as well (see my comment above).
+
+I could not find any of the people mentioned in my letter. This is maybe because I did not use the identifiers from wikidata for the people who were in the body of my letter?
+
