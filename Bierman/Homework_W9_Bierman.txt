@@ -1,0 +1,36 @@
+
+ENTITY: person
+ATTRIBUTES:
+person_id (PK)
+First_Name
+Last_Name
+Year_born
+Year_died
+Place_of_Birth 
+Place_of_Death
+
+ENTITY: BOOK
+ATTRIBUTES
+book_id (PK)
+Title
+Date_of_Publication
+Author (FK, connected to table PERSON)
+Publisher (FK, connected to table PUBLISHER)
+
+ENTITY: PUBLISHER
+ATTRIBUTES
+publisher_id (PK)
+Name
+Place (FK, connected to table PLACE)
+
+ENTITY: PLACE
+ATTRIBUTES:
+Place_id
+Name
+
+ENTITY: LOAN
+ATTRIBUTES:
+Loan_id
+borrower (FK, connected to table PERSON)
+Book (FK, connected to table BOOK)
+
