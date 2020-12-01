@@ -1,0 +1,13 @@
+Reviewing the database of the letters from assignemnt 1
+
+Letter Q70393519540903
+-Sender and recipient have been added correctly
+-A reference to Marquis D'Ormesson is missing
+-I have been unable to check whether or not location of recipient/sender has been added
+
+
+Letter Q70393519300531
+-Sender and recipient have been added correctly
+-There are no mentions in this letter, so nothing can miss here
+-I have been unable to check whether or not location of recipient/sender has been added
+
