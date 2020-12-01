@@ -1,0 +1,21 @@
+Homework-W12-SQL_Shalev.txt
+
+Reviewing the letters database from Assignemnt #1
+
+Letter Q162336219330329
+-Sender and Recipient are correct
+-Date is correct
+-Locations of recipient and sender are correct
+-Names referred to:
+1. 'SACKVILLE WEST' (Vita Sackville-West) is mentioned in the letter but is not captured properly (I accadentially did not encode her persName code in the original TEI exercise)
+2. 'Spalding & Hodge' - I am unable to see if it is captured. I assume this is because it is encoded with orgName (not persName), and therefore it would not appear in MENTIONS_PERSON.
+3. 'The Ship Binding works' - Same as 2, see above.
+
+
+Letter Q162336219370420
+-Sender and Recipient are correct
+-Date is correct
+-Locations of recipient and sender are correct
+-Names referred to:
+1. Only Vita Sackville-West is mentioned, and she is captured properly.
+
