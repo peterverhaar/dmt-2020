@@ -1,0 +1,11 @@
+Letter Q70393519460731
+- The sender and recipient are correctly encoded. 
+- The date is correctly encoded.
+- The sender's location is incorrectly encoded; it is listed as 4 King's Bench Walk London when it should be 40 William IV Street London. The recipient's location is correctly encoded.
+- 'Mr. Jullian' is not listed as a mention, although he was never identified in the original markup so it may be irrelevant in any case.
+
+Letter Q23550519340904
+- The sender and recipient are correctly encoded.
+- The date is correctly encoded. 
+- The sender's location is correctly encoded. The recipient's location was not provided in the original letter but is encoded in the database as 4 King's Bench Walk London.
+- The mentions are correctly encoded.
