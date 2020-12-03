@@ -4,7 +4,8 @@ sans-serif; background-color:#03c2fc
 }
 
 table { text-align: left; color: #c42716 }
-a { color: #003366; text-decoration: none; } 
+a { color: #003366; text-decoration: none; } 
+
 a:visited { color: #660066; text-decoration: none; }
 a:hover { color: #003366; text-decoration: underline; }
 h1 { color: #000066; font-size: 24px }
