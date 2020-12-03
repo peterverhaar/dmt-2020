@@ -1,0 +1,13 @@
+
+Letter Q23550519430908 
+From Vita Sakville-West to Miss Cooper 
+- The sender and the recipient are referenced correctly. 
+- The location of the sender is present but incorrect. It should be LOC_ID 3 (4 King's Bench Walk London). 
+	At the moment it indicates LOC_ID 1 (Sissinghurst Castle, Kent), which is incorrect according to the original letter. 
+- The location of the recipient is correctly missing. 
+
+Letter Q23550519460404
+From Vita Sakville-West to Leonard Woolf 
+- The sender and the recipient are referenced correctly. 
+- The location of the sender is present and correct. 
+- The location of the receiver was not present in the original letter, so it should not be present in the database either. 

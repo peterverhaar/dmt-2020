@@ -1,0 +1,40 @@
+15. The first name and the last name of all the authors, together with the full name of the countries in which these authors were born. 
+
+SELECT FIRST_NAME, LAST_NAME, NAME 
+FROM AUTHOR, COUNTRY 
+WHERE NAME = COUNTRY_ID; 
+
+16. The title and the year of all the books, together with a full description of the genres (not only the codes). 
+
+SELECT TITLE, YEAR, GENRE.GENRE 
+FROM BOOK, GENRE 
+WHERE BOOK.GENRE = GENRE_ID 
+
+17. Which authors have written more than one bestseller? 
+
+SELECT LAST_NAME, COUNT( * ) 
+FROM AUTHOR, BOOK 
+WHERE AUTHOR = AUTHOR_ID 
+GROUP BY AUTHOR 
+HAVING COUNT( * ) > 1; 
+
+18. Which publishers are responsible for more than three bestsellers? 
+
+SELECT NAME, COUNT( * ) 
+FROM PUBLISHER, BOOK 
+WHERE PUBLISHER = PUBL_ID 
+GROUP BY PUBLISHER 
+HAVING COUNT( * ) > 3;
+
+19. What are the best-selling books in the genre "Popular Science"? 
+
+SELECT TITLE, GENRE.GENRE 
+FROM BOOK, GENRE 
+WHERE BOOK.GENRE = GENRE_id AND GENRE.GENRE = ‘Popular Science’; 
+
+20. What is the average number of sales of a book written by J.K. Rowling? 
+
+SELECT AVG(SOLD) 
+FROM BOOK, GENRE 
+WHERE BOOK.GENRE = GENRE_ID AND LAST_NAME = ‘Rowling’ 
+
