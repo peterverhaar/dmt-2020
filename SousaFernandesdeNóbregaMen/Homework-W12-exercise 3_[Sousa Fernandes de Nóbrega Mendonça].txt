@@ -1,0 +1,12 @@
+Q23550519290403	
+- names are correct
+- dates are correct
+- mentions
+- recipient's location: there is a pin to the town
+
+Q70393519540907	
+- names are correct
+- date is correct
+- recipient's location is missing
+
+
