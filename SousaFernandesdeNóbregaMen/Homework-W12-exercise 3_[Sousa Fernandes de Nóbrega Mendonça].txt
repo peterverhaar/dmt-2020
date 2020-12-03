@@ -1,6 +1,6 @@
 Q23550519290403	
 - names are correct
-- dates are correct
+- date is correct
 - mentions
 - recipient's location: there is a pin to the town
 
