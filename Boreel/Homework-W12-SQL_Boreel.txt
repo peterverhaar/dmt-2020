@@ -1,0 +1,14 @@
+Review of the information from my letters in the letter database
+
+Letter Q162336219330323 (Hogarth Press)
+- The names of the sender and the recipient have been entered correctly.
+- The date has been entered correctly.
+- The location of the sender and the location of the recipient have been entered correctly
+- No person names are mentioned in the body of this letter. Vita Sackwell West is named and tagged in the salute; this does not show up in the results of the SQL query.
+
+Letter Q70393519540903 (Leonard Woolf)
+- The names of the sender and the recipient have been entered correctly.
+- The date has been entered correctly.
+- The location of the sender (Leonard Woolf) is not mentioned in the letter and I am unable to verify it online. It does however share its place_id with the other mentions of Leonard Woolf. This merely means that if the address is wrong, it is wrong for all of them.
+The location of the recipient is correct.
+- No person names are mentioned in the body of this letter. Vita Sackwell West is named and tagged in the salute; this does not show up in the results of the SQL query.
