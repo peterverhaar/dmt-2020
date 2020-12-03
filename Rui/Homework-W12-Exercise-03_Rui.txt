@@ -1,0 +1,13 @@
+Q162336219300916
+
+- Name of the recipient includes (and should exclude) "Messrs."
+- Date is correct.
+- Locations are correct.
+- There is a mention of a "Doran." Since there is no surname I did not encode the name, but it could perhaps be useful.
+
+Q162336219341126
+
+- Name is correct.
+- Date is correct.
+- Locations are correct.
+- Two mentions are missing because I made a mistake not encoding this information. The names are Sackerville-West and Miss Chapter.
