@@ -1,0 +1,28 @@
+Homework week 12: SQL Exc. 3 - Meetsma
+
+Letter ID's:
+Q162336219380315
+Q162336219300826
+
+First of all, both letters have been added to the database.
+
+SENDER, RECIPIENT & DATE
+The senders and recipients show up correctly in the table, along with the correct date:
+
+Q162336219300826	1930-08-26	The Hogarth Press	Messrs. Irwin and Gordon
+Q162336219380315	1938-03-15	The Hogarth Press	The Windmill Press
+
+LOCATIONS SENDER & RECIPIENT
+The locations have been correctly stored. Interestingly, the city code was given for London in the database.
+
+Q162336219300826	1930-08-26	The Hogarth Press	19	Messrs. Irwin and Gordon	23
+Q162336219380315	1938-03-15	The Hogarth Press	19	The Windmill Press		22
+
+19 = Paradise Road, Richmond		-0.301687	51.4604		UK LON
+23 = 66 Temperance Street. Toronto	-79.3823	43.6504	
+22 = Tadworth, Surrey			-0.232671	51.2912
+
+I did not manage to link the table using SQL, so I had to look the numbers up separately like a cavewoman.
+
+MENTIONS
+In the Q162336219300826 letter, there is a mention in the body of the letter about Vita Sackville-West. I, however, did not encode this for some reason and therefore it obviously does not show up in the mentions. In both letters, publishers were mentioned in the body: Double Day Doran and Garden City Press. These were encoded using <orgName>, but these do not show up in the mentions either. Odd.
